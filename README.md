@@ -360,7 +360,7 @@ number = input("Please enter a number: ")
 
 ## Additional exercises
 
-<blockquote>Q7:  Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.<blockquote>
+<blockquote>Q7:  Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.</blockquote>
   
 <blockquote>Q8: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.</blockquote>
 
