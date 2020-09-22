@@ -55,7 +55,7 @@ This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~
 
 # How to submit this lab (and show your work)
 
-Moving forward, lab notebooks will be submitted as `.py` files. 
+Moving forward, we'll submit lab notebooks as `.py` files. 
 
 One option is to have a `.py` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
 
