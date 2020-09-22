@@ -149,9 +149,9 @@ because nothing is being done with the string.
 - We're focusing on a few key data types, but there are <bold>many</bold> different types of data in Python.
   * Consult the [Python.org documentation on data types](https://docs.python.org/3/library/datatypes.html) to learn more.
   
-14. For each of these examples, copy/paste or retype the code into a new `.py` file to run each mini program (and learn more about Python's functionality and documentation).
+14. For each of these examples, copy/paste or retype the code into a new `.py` file to run each mini program (and learn more about Python's functionality and documentation). Experiment, adapt, or modify these samples as you work through the lab procedure.
 
-### Numbers
+## Numbers
 
 15. An integer is a whole number that does not include any decimal (or fractional) values. A float data type includes decimal (or fractional) values.
 ```python
@@ -172,7 +172,7 @@ i = i + .5
 print("i is of type: ", type(i))
 ```
 
-### Strings
+## Strings
 
 17. A string is a sequence of characters (letters, numbers, symbols, etc.)
 ```python
@@ -189,7 +189,7 @@ print(myName)
 ```
 <blockquote>Concatenation: adding or joining together. For strings, Python will concatenate using the <code>+</code> symbol.</blockquote>
 
-### Boolean Operators
+## Boolean Operators
 
 19. Boolean operators are logical values (think true/false, yes/no, 0/1).
 
@@ -238,7 +238,7 @@ print("-1:", bool(-1))
 
 <blockquote>Q3: Describe a scenario or situation in which being able to use Boolean operators when programming in Python would be valuable. What kinds of tasks or programs would require Boolean operators? What would Boolean operators enable you to do?</blockquote>  
   
-### Arithmetic Operators
+## Arithmetic Operators
 
 24. A few standard operators we can use in Python to perform arithmetic operations.
 - `+` (plus, sum)
