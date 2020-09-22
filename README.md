@@ -40,7 +40,7 @@ This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~
 # Table of Contents
 - [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Your First Program](#your-first-program)
-- [Print Statements & ASCII Art](#
+- [Print Statements & ASCII Art](#print-statements--ascii-art)
 - [Data Types](#data-types)
   * [Comments](#comments)
   * [Variables and Types](#variables-and-types)
@@ -360,13 +360,13 @@ number = input("Please enter a number: ")
 
 ## Additional exercises
 
-<blockquote>Q7:  Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.</blockquote>
+Q7:  Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.
   
-<blockquote>Q8: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.</blockquote>
+Q8: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.
 
-<blockquote>The conversion equation is: celsius = (fahrenheit - 32.0) * 5.0 / 9.0</blockquote>
+<blockquote>The conversion equation is: <code>celsius = (fahrenheit - 32.0) * 5.0 / 9.0</code></blockquote>
 
-<blockquote>Q9: Write a program called <code>change.py</code> that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.</blockquote>
+Q9: Write a program called `change.py` that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
 
 <blockquote>Note: Consider how store clerks give change to their customers. To be considerate, they always try to give the exact change using the fewest coins possible. It turns out that this can always be done (in U.S. currency) by giving as many quarters as possible, followed by as many dimes as possible, and so on down to pennies.</blockquote>
 
