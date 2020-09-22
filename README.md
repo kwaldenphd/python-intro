@@ -37,6 +37,22 @@ This lab is based on the ["Lab: Programming in Python"](https://www.cs.grinnell.
 
 This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~cpennycu/) ["Intro to Python/Jupyter" Jupyter notebook](https://www3.nd.edu/~cpennycu/2019/assets/fall/EOC/19.08.29.ipynb) from [CSE 10101 Elements of Computing (Fall 2019)](https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html).
 
+# Table of Contents
+- [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
+- [Your First Program](#your-first-program)
+- [Print Statements & ASCII Art](#
+- [Data Types](#data-types)
+  * [Comments](#comments)
+  * [Variables and Types](#variables-and-types)
+  * [Numbers](#numbers)
+  * [Strings](#strings)
+  * [Boolean Operators](#boolean-operators)
+  * [Arithmetic Operators](#arithmetic-operators)
+- [Character Strings and Variables](#character-strings-and-variables)
+  * [User-defined inputs](#user-defined-inputs)
+  * [Additional exercises](#additional-exercises)
+- [Lab Notebook Questions](#lab-notebook-questions)
+
 # How to submit this lab (and show your work)
 
 Moving forward, lab notebooks will be submitted as `.py` files. 
