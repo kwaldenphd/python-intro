@@ -329,7 +329,7 @@ print ("%e" % 8675309)
 str = raw_input("Please enter a word: ")
 print "You typed " + str
 ```
-<blockquote>Q5: Write a program that asks the user to enter two words, and then prints the words concatenated together. Answer to this question includes program + comments that document process and explain your code.<blockquote>
+<blockquote>Q5: Write a program that asks the user to enter two words, and then prints the words concatenated together. Answer to this question includes program + comments that document process and explain your code.</blockquote>
 
 29. Now try entering numbers (such as 5, not "five") into your Q5 program. 
 
