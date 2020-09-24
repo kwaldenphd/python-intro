@@ -73,16 +73,16 @@ What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 <blockquote>Watch out for quotation marks!</blockquote>
 
 ```python
-print "Welcome to the wild world of computer programming!"
+print ("Welcome to the wild world of computer programming!")
 ```
-2. Save your work, naming (or renaming) the file `first.py`. 
+2. Save your work as part of the `main.py`. 
 
 <blockquote>When adding new files in Repl.it or writing a Python program from scratch either in a text editor or in a desktop Python IDE, be sure to include the <code>.py</code> file extension, which specifies your file is a Python program.</blockquote>
 
 3. As in the Lab #4 and Midterm Project work in HTML/CSS, one of the features of an IDE is that syntax highlighting, which recognizes the language you are writing in and uses color/font highlighting to visually help you write and understand programs.
 
 4. Run your first program in the terminal window, using the following command.
-`python first.py`
+`python main.py`
 
 5. The `print()` function will output the value passed to it, including a string. 
 
@@ -92,7 +92,7 @@ print "Welcome to the wild world of computer programming!"
 
 # Print Statements & ASCII Art
 
-5. Add a second print statement to your `first.py` program:
+5. Add a second print statement to your `main.py` program:
 ```python
 print "Are we having fun yet?"
 ```
