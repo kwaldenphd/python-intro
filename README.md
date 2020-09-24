@@ -181,7 +181,7 @@ print("j is of type: ", type(j))
 
 16. But Python variables can also change their type...
 ```python
-# ariable type...can vary
+# variable type...can vary
 i = 3
 print("i is of type: ", type(i))
 i = i + .5
