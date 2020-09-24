@@ -323,10 +323,10 @@ print ("%e" % 8675309)
 
 27. Now we're going to write a program that allows the user (i.e. the person running the program) to input a value for the program to use.
 
-28. To allow the user to input a value, we'll use the `raw_input` function.
+28. To allow the user to input a value, we'll use the `input` function.
 ```python
 # sample code that uses the raw_input function to create a new str variable and assign the user-provided value to that variable
-str = raw_input("Please enter a word: ")
+str = input("Please enter a word: ")
 print "You typed " + str
 ```
 <blockquote>Q5: Write a program that asks the user to enter two words, and then prints the words concatenated together. Answer to this question includes program + comments that document process and explain your code.</blockquote>
@@ -337,11 +337,11 @@ print "You typed " + str
 
 31. The issue here is that Python (like other programming languages) makes a distinction between numbers and strings of characters that contain numeric digits. To see the difference, think of your zip code. It makes no sense to add or multiply zip codes; thus, at heart a zip code isn't really a number, it is really a character string that happens to contain numeric digits. Indeed, many countries use postal codes that include both digits and letters. 
 
-32. The `raw_input` function will always return a character string.
+32. The `input` function returns a character string.
 
 33. We want to convert that string into an integer using the `int()` function.
 ```python
-data = raw_input("Enter a number: ")
+data = input("Enter a number: ")
 num = int(data)
 ```
 
@@ -351,7 +351,7 @@ num = int(data)
 
 <blockquote>Q6: Write a new program called <code>addition.py</code> that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code. </blockquote>
 
-36. An alternative way to handle this situation would be to use a different function to read input from the user. While `raw_input()` always returns a string of characters, the `input()` function always returns a number.
+36. An alternative way to handle this situation would be to use a different function to read input from the user. While `input()` can return a string of characters, the `input()` function can also return a number.
 
 37. The user inputs from the `input()` function can be added to other numbers (and do not need to be converted to an integer first).
 ```python
