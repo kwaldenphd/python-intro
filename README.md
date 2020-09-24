@@ -81,8 +81,7 @@ print ("Welcome to the wild world of computer programming!")
 
 3. As in the Lab #4 and Midterm Project work in HTML/CSS, one of the features of an IDE is that syntax highlighting, which recognizes the language you are writing in and uses color/font highlighting to visually help you write and understand programs.
 
-4. Run your first program in the terminal window, using the following command.
-`python main.py`
+4. Run your first program in the Replit terminal window, using the following command: `python main.py`. You can also run the program using "Run"
 
 5. The `print()` function will output the value passed to it, including a string. 
 
@@ -138,6 +137,7 @@ print "Are we having fun yet?"
 
 ```python
 # From Professor Walden: The text of this comment about comments is taken from one of Corey Penneycuff's Elements of Computing I Jupyter notebooks
+
 # I am a comment
 
 """
