@@ -68,7 +68,7 @@ What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 
 # Your First Program
 
-1. Your first program will contain a single Python statement. Enter the following statement into a new `.py` file. 
+1. Your first program will contain a single Python statement. Enter the following statement into a new `.py` file (when working in Replit, this could be the `main.py` file). 
 
 <blockquote>Watch out for quotation marks!</blockquote>
 
@@ -79,7 +79,7 @@ print ("Welcome to the wild world of computer programming!")
 
 <blockquote>When adding new files in Repl.it or writing a Python program from scratch either in a text editor or in a desktop Python IDE, be sure to include the <code>.py</code> file extension, which specifies your file is a Python program.</blockquote>
 
-3. As in the Lab #4 and Midterm Project work in HTML/CSS, one of the features of an IDE is that syntax highlighting, which recognizes the language you are writing in and uses color/font highlighting to visually help you write and understand programs.
+3. As we discovered in the HTML and CSS lab, one of the features of an IDE is that syntax highlighting, which recognizes the language you are writing in and uses color/font highlighting to visually help you write and understand programs.
 
 4. Run your first program in the Replit terminal window, using the following command: `python main.py`. You can also run the program using "Run"
 
@@ -87,7 +87,7 @@ print ("Welcome to the wild world of computer programming!")
 
 <blockquote>NOTE: If you've previously worked in Python 2, the way Python 3 deals with strings is very different. Consult <a href="https://docs.python.org/3.7/library/string.html#format-string-syntax">Python documentation</a> if needed.</blockquote>
 
-<blockquote>Q1: What do you expect to see when you run the <code>first.py</code> program? How does that compare to what happened when you ran the program?</blockquote>
+<blockquote>Q1: What do you expect to see when you run the <code>main.py</code> program? How does that compare to what happened when you ran the program?</blockquote>
 
 # Print Statements & ASCII Art
 
@@ -121,7 +121,7 @@ print "Are we having fun yet?"
 
 10. Run the `figure.py` program in the terminal.
 
-11. Create a new file (`ascii.py`) and write a program in which you draw your own ASCII art using Python `print` statements. 
+11. Modify the `figure.py` file to write a program in which you draw your own ASCII art using Python `print` statements. 
 
 <blockquote>Consult the <a href="https://www.asciiart.eu/">ASCII Art Archive</a> for inspiration.</blockquote>
 
@@ -215,7 +215,7 @@ print(myName)
 
 22. `and`, `or`, and `not` can combine or modify `True` and `False` values.
 
-23. A few examples. Remember for each of these examples, copy/paste or retype the code into a new `.py` file to run each mini program (and learn more about Python's functionality and documentation)
+23. A few examples. Remember for each of these examples, copy/paste or retype the code into your `.py` file to run each mini program (and learn more about Python's functionality and documentation)
 
 ```python
 print(type(x == 4))
@@ -313,7 +313,7 @@ print ("%+010.3f" % -math.pi)
 print ("%e" % 8675309)
 ```
 
-<blockquote>Q4: Experiment with a range of basic arithmetic operations in Python. Write a program that involves arithmetic operation. Describe the process of writing this program. What did you want to do in Python? What were the program outputs? What challenges or unexpected results did you encounter? Include your program as part of the answer to this question.</blockquote>
+<blockquote>Q4: Experiment with a range of basic arithmetic operations in Python. Write a program that involves arithmetic operation. Describe the process of writing this program. What did you want to do in Python? What were the program outputs? What challenges or unexpected results did you encounter? Include your program code as part of the answer to this question.</blockquote>
 
 # Character Strings and Variables
 
@@ -349,7 +349,7 @@ num = int(data)
 
 35. Try modifying your Q5 program to include the `int()` function. 
 
-<blockquote>Q6: Write a new program called <code>addition.py</code> that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code. </blockquote>
+<blockquote>Q6: Write a program that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code. </blockquote>
 
 36. An alternative way to handle this situation would be to use a different function to read input from the user. While `input()` can return a string of characters, the `input()` function can also return a number.
 
@@ -366,7 +366,7 @@ Q8: Write a program that prompts the user to enter a temperature in Fahrenheit, 
 
 <blockquote>The conversion equation is: <code>celsius = (fahrenheit - 32.0) * 5.0 / 9.0</code></blockquote>
 
-Q9: Write a program called `change.py` that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
+Q9: Write a program that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
 
 <blockquote>Note: Consider how store clerks give change to their customers. To be considerate, they always try to give the exact change using the fewest coins possible. It turns out that this can always be done (in U.S. currency) by giving as many quarters as possible, followed by as many dimes as possible, and so on down to pennies.</blockquote>
 
@@ -395,10 +395,10 @@ Q4: Experiment with a range of basic arithmetic operations in Python. Write a pr
 
 Q5: Write a program that asks the user to enter two words, and then prints the words concatenated together. Include your program as part of the answer to this question.
 
-Q6: Write a new program called <code>addition.py</code> that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code.
+Q6: Write a program that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code.
 
 Q7:  Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.
   
 Q8: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.
 
-Q9: Write a program called `change.py` that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
+Q9: Write a program that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
