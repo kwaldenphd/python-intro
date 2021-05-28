@@ -93,7 +93,7 @@ print ("Welcome to the wild world of computer programming!")
 
 5. Add a second print statement to your `main.py` program:
 ```python
-print "Are we having fun yet?"
+print("Are we having fun yet?")
 ```
 6. Save your program, and run it in the terminal window.
 
@@ -327,7 +327,7 @@ print ("%e" % 8675309)
 ```python
 # sample code that uses the raw_input function to create a new str variable and assign the user-provided value to that variable
 str = input("Please enter a word: ")
-print "You typed " + str
+print("You typed " + str)
 ```
 <blockquote>Q5: Write a program that asks the user to enter two words, and then prints the words concatenated together. Answer to this question includes program + comments that document process and explain your code.</blockquote>
 
@@ -385,7 +385,7 @@ Q9: Write a program that asks the user to input the amount of change your progra
 
 # Lab Notebook Questions
 
-Q1: What do you expect to see when you run the <code>first.py</code> program? How does that compare to what happened when you ran the program?
+Q1: What do you expect to see when you run the program? How does that compare to what happened when you ran the program?
 
 Q2: Describe your experience and process building your own ASCII art. How did you approach the design process? What challenges did you encounter? Include your code as part of this answer.
 
