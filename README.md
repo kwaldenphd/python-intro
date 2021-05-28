@@ -165,7 +165,7 @@ because nothing is being done with the string.
 - We're focusing on a few key data types, but there are <bold>many</bold> different types of data in Python.
   * Consult the [Python.org documentation on data types](https://docs.python.org/3/library/datatypes.html) to learn more.
   
-14. For each of these examples, copy/paste or retype the code into a new `.py` file to run each mini program (and learn more about Python's functionality and documentation). Experiment, adapt, or modify these samples as you work through the lab procedure.
+14. For each of these examples, copy/paste or retype the code to run each mini program (and learn more about Python's functionality and documentation). Experiment, adapt, or modify these samples as you work through the lab procedure.
 
 ## Numbers
 
@@ -218,6 +218,7 @@ print(myName)
 23. A few examples. Remember for each of these examples, copy/paste or retype the code into your `.py` file to run each mini program (and learn more about Python's functionality and documentation)
 
 ```python
+x=4
 print(type(x == 4))
 print(x==4)
 ```
@@ -325,7 +326,7 @@ print ("%e" % 8675309)
 
 28. To allow the user to input a value, we'll use the `input` function.
 ```python
-# sample code that uses the raw_input function to create a new str variable and assign the user-provided value to that variable
+# sample code that uses the input function to create a new str variable and assign the user-provided value to that variable
 str = input("Please enter a word: ")
 print("You typed " + str)
 ```
