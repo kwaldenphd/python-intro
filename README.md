@@ -212,10 +212,10 @@ print(myName)
 19. Python includes a few different types of operators that can be used with values and variables.
 
 <table>
- <th><td>Operator Type</td>
+ <tr><td>Operator Type</td>
  <td>Example</td>
  <td>Description</td>
- </th>
+ </tr>
  <tr><td>Arithmetic operators</td>
  <td><code>+, -, *, /</code></td>
  <td>Used to perform arithmetic operations or calculations</td>
@@ -239,10 +239,10 @@ print(myName)
 20. Python's comparison operators will return a value of `TRUE` or `FALSE` based on whether the comparison is true or false.
 
 <table>
- <th><td>Operator</td>
+ <tr><td>Operator</td>
  <td>Name</td>
  <td>Example</td>
- </th>
+ </tr>
  <tr><td><code>==</code></td>
  <td>Equal</td>
  <td><code>x == y</code></td>
@@ -276,10 +276,10 @@ print(myName)
 22. We can also combine comparison operators using Python's logical operators.
 
 <table>
- <th><td>Operator</td>
+ <tr><td>Operator</td>
  <td>Description</td>
  <td>Example</td>
- </th>
+ </tr>
  <tr><td><code>and</code></td>
  <td>Returns <code>True</code> if both statements are true</td>
  <td><code> x < 5 and x < 10</code></td>
