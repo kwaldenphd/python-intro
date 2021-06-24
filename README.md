@@ -46,8 +46,10 @@ This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~
   * [Variables and Types](#variables-and-types)
   * [Numbers](#numbers)
   * [Strings](#strings)
-  * [Boolean Operators](#boolean-operators)
-  * [Arithmetic Operators](#arithmetic-operators)
+  * [Operators](#operators)
+    * [Comparison Operators](#comparison-operators)
+    * [Logical Operators](#logical-operators)
+    * [Arithmetic Operators](#arithmetic-operators)
 - [Character Strings and Variables](#character-strings-and-variables)
   * [User-defined inputs](#user-defined-inputs)
   * [Additional exercises](#additional-exercises)
@@ -205,17 +207,96 @@ print(myName)
 ```
 <blockquote>Concatenation: adding or joining together. For strings, Python will concatenate using the <code>+</code> symbol.</blockquote>
 
-## Boolean Operators
+## Operators
 
-19. Boolean operators are logical values (think true/false, yes/no, 0/1).
+19. Python includes a few different types of operators that can be used with values and variables.
 
-20. We can use Boolean operators in a variety of ways when programming in Python.
+<table>
+ <th><td>Operator Type</td>
+ <td>Example</td>
+ <td>Description</td>
+ </th>
+ <tr><td>Arithmetic operators</td>
+ <td><code>+, -, *, /</code></td>
+ <td>Used to perform arithmetic operations or calculations</td>
+ </tr>
+ <tr><td>Assignment operators</td>
+ <td><code>=</code></td>
+ <td>Used to assign values to variables</td>
+ </tr>
+ <tr><td>Comparison operators</td>
+ <td><code>==, !=, >, <</code></td>
+ <td>Used to compare two values</td>
+ </tr>
+ <tr><td>Logical operators</td>
+ <td><code>and, or, not</code></td>
+ <td>Used to combine conditional statements</td>
+ </tr>
+</table>
 
-21. `<`, `<=`, `>`, `>=`, `==`, `!=` compare two values and return `True` or `False`.
+### Comparison Operators
 
-22. `and`, `or`, and `not` can combine or modify `True` and `False` values.
+20. Python's comparison operators will return a value of `TRUE` or `FALSE` based on whether the comparison is true or false.
 
-23. A few examples. Remember for each of these examples, copy/paste or retype the code into your `.py` file to run each mini program (and learn more about Python's functionality and documentation)
+<table>
+ <th><td>Operator</td>
+ <td>Name</td>
+ <td>Example</td>
+ </th>
+ <tr><td><code>==</code></td>
+ <td>Equal</td>
+ <td><code>x == y</code></td>
+ </tr>
+ <tr><td><code>!=</code></td>
+ <td>Not equal</td>
+ <td><code>x != y</code></td>
+ </tr>
+ <tr><td><code>></code></td>
+ <td>Greater than</td>
+ <td><code>x > y</code</td>
+  </tr>
+  <tr><td><code><</code></td>
+   <td>Less than</td>
+   <td><code>x < y</code</td>
+  </tr>
+  <tr><td><code>>=</code></td>
+   <td>Greater than or equal to</td>
+   <td><code>x >= y</code></td>
+  </tr>
+  <tr><td><code><=</code></td>
+   <td>Less than or equal to</td>
+   <td><code>x <= y</code></td>
+  </tr>
+  </table>
+  
+21. These comparison operators compare two values and return `True` or `False`.
+
+### Logical Operators
+
+22. We can also combine comparison operators using Python's logical operators.
+
+<table>
+ <th><td>Operator</td>
+ <td>Description</td>
+ <td>Example</td>
+ </th>
+ <tr><td><code>and</code></td>
+ <td>Returns <code>True</code> if both statements are true</td>
+ <td><code> x < 5 and x < 10</code></td>
+ </tr>
+ <tr><td><code>or</code></td>
+ <td>Returns <code>True</code> if one of the statements is true</td>
+ <td><code>x < 5 or x < 4</code></td>
+ </tr>
+ <tr><td><code>not</code></td>
+ <td>Reverses the result; returns <code>False</code> if the result is <code>True</code></td>
+ <td><code>not(x < 5 and X < 10)</code></td>
+ </tr>
+ </table
+ 
+23. A few examples. Remember for each of these examples, copy/paste or retype the code into your `.py` file to run each mini program.
+
+<blockquote><a href="https://www.w3schools.com/python/python_operators.asp">Click here</a> to learn more about Python Operators, via W3Schools.</blockquote>
 
 ```python
 x=4
@@ -255,7 +336,7 @@ print("-1:", bool(-1))
 
 <blockquote>Q3: Describe a scenario or situation in which being able to use Boolean operators when programming in Python would be valuable. What kinds of tasks or programs would require Boolean operators? What would Boolean operators enable you to do?</blockquote>  
   
-## Arithmetic Operators
+### Arithmetic Operators
 
 24. A few standard operators we can use in Python to perform arithmetic operations.
 - `+` (plus, sum)
@@ -368,6 +449,13 @@ Q8: Write a program that prompts the user to enter a temperature in Fahrenheit, 
 <blockquote>The conversion equation is: <code>celsius = (fahrenheit - 32.0) * 5.0 / 9.0</code></blockquote>
 
 Q9: Write a program that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
+
+In U.S. currency, one dollar ($1.00) equals one hundred (100) cents. The coins used to make change have a face value in cents.
+
+- Quarter = 25 cents
+- Dime = 10 cents
+- Nickel = 5 cents
+- Penny = 1 cent
 
 <blockquote>Note: Consider how store clerks give change to their customers. To be considerate, they always try to give the exact change using the fewest coins possible. It turns out that this can always be done (in U.S. currency) by giving as many quarters as possible, followed by as many dimes as possible, and so on down to pennies.</blockquote>
 
