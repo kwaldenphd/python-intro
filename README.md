@@ -12,6 +12,9 @@ By the end of this lab you will be able to:
 
 Python is an object-oriented programming language. It’s comparable to a number of other programming languages, such as Perl, Ruby, or Java. Python is a high-level programming language.
 
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
+<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db2fff0-7e4a-45f6-b38a-ae580166b82b">Lab overview</a></img>
+
 ## Acknowledgements
 
 This lab is based on the ["Lab: Programming in Python"](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python1.html) and ["Lab: Numbers in Python"](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python2.html) lab materials developed by [Janet Davis](https://cs.whitman.edu/~davisj/) for the the [CSC 105 "The Digital Age" course](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/). 
@@ -38,6 +41,7 @@ This lab is based on the ["Lab: Programming in Python"](https://www.cs.grinnell.
 This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~cpennycu/) ["Intro to Python/Jupyter" Jupyter notebook](https://www3.nd.edu/~cpennycu/2019/assets/fall/EOC/19.08.29.ipynb) from [CSE 10101 Elements of Computing (Fall 2019)](https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html).
 
 # Table of Contents
+- [Lecture and Live Coding](#lecture-and-live-coding)
 - [Lab Notebook Template](#lab-notebook-template)
   * [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Your First Program](#your-first-program)
@@ -57,6 +61,19 @@ This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~
 - [Lab Notebook Questions](#lab-notebook-questions)
 
 [Click here](https://drive.google.com/file/d/1pmS8_v84HBWRXhmCAqsNsWUbP6DqPTB3/view?usp=sharing) to access this lab procedure as a Jupyter Notebook.
+
+# Lecture and Live Coding
+
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">Throughout this lab, you will see a Panopto icon at the start of select sections.</img>
+
+This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
+
+You can click the link in the figure caption to access these materials (ND users only).
+
+Example:
+
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
+<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db2fff0-7e4a-45f6-b38a-ae580166b82b">Lab overview</a></img>
 
 # Lab Notebook Template
 
@@ -78,6 +95,10 @@ What gets submitted as the lab notebook is the `Lab_Notebook_Walden.py` file.
 - Be sure you are using comments to note what question you're responding to
 
 # Your First Program
+
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
+<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b873ef6-c961-4ac1-a493-ae5801666f17">Your First Program</a></img>
+
 
 1. Your first program will contain a single Python statement. Enter the following statement into a new `.py` file (when working in Replit, this could be the `main.py` file). 
 
@@ -182,6 +203,9 @@ because nothing is being done with the string.
 
 ## Numbers
 
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
+<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db06437-5990-4724-b06e-ae58016a43f0">Numbers and Strings</a></img>
+
 15. An integer is a whole number that does not include any decimal (or fractional) values. A float data type includes decimal (or fractional) values.
 ```python
 # assign variable
@@ -241,6 +265,9 @@ print(myName)
 <blockquote>Concatenation: adding or joining together. For strings, Python will concatenate using the <code>+</code> symbol.</blockquote>
 
 ## Operators
+
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
+<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f6eb439b-8f12-40ad-a4ca-ad8201619c92">Numbers and Strings</a></img>
 
 19. Python includes a few different types of operators that can be used with values and variables.
 
@@ -455,6 +482,9 @@ num = int(data)
 <blockquote>Q6: Write a program that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code. </blockquote>
 
 ## Additional exercises
+
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
+<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fb0df517-509a-4c15-be24-ae580175954d">Lab Notebook Questions 7-9</a></img>
 
 Q7:  Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.
   
