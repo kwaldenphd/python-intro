@@ -12,8 +12,12 @@ By the end of this lab you will be able to:
 
 Python is an object-oriented programming language. It’s comparable to a number of other programming languages, such as Perl, Ruby, or Java. Python is a high-level programming language.
 
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
-<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db2fff0-7e4a-45f6-b38a-ae580166b82b">Lab overview</a></img>
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db2fff0-7e4a-45f6-b38a-ae580166b82b">Lab overview</a></td>
+  </tr>
+  </table>
 
 ## Acknowledgements
 
@@ -63,8 +67,7 @@ This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~
 [Click here](https://drive.google.com/file/d/1pmS8_v84HBWRXhmCAqsNsWUbP6DqPTB3/view?usp=sharing) to access this lab procedure as a Jupyter Notebook.
 
 # Lecture and Live Coding
-
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">Throughout this lab, you will see a Panopto icon at the start of select sections.</img>
+Throughout this lab, you will see a Panopto icon at the start of select sections.
 
 This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
 
@@ -72,8 +75,12 @@ You can click the link in the figure caption to access these materials (ND users
 
 Example:
 
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
-<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db2fff0-7e4a-45f6-b38a-ae580166b82b">Lab overview</a></img>
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db2fff0-7e4a-45f6-b38a-ae580166b82b">Lab overview</a></td>
+  </tr>
+  </table>
 
 # Lab Notebook Template
 
@@ -96,9 +103,9 @@ What gets submitted as the lab notebook is the `Lab_Notebook_Walden.py` file.
 
 # Your First Program
 
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
-<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b873ef6-c961-4ac1-a493-ae5801666f17">Your First Program</a></img>
-
+<table>
+<tr><td><img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td></tr>
+<tr><td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b873ef6-c961-4ac1-a493-ae5801666f17">Your First Program</a></td></tr></table>
 
 1. Your first program will contain a single Python statement. Enter the following statement into a new `.py` file (when working in Replit, this could be the `main.py` file). 
 
@@ -203,8 +210,9 @@ because nothing is being done with the string.
 
 ## Numbers
 
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
-<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db06437-5990-4724-b06e-ae58016a43f0">Numbers and Strings</a></img>
+<table>
+<tr><td><img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td></tr>
+<tr><td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db06437-5990-4724-b06e-ae58016a43f0">Numbers and Strings</a></td></tr></table>
 
 15. An integer is a whole number that does not include any decimal (or fractional) values. A float data type includes decimal (or fractional) values.
 ```python
@@ -266,8 +274,9 @@ print(myName)
 
 ## Operators
 
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
-<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f6eb439b-8f12-40ad-a4ca-ad8201619c92">Numbers and Strings</a></img>
+<table>
+<tr><td><img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td></tr>
+<tr><td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f6eb439b-8f12-40ad-a4ca-ad8201619c92">Operators and Inputs</a></td></tr></table>
 
 19. Python includes a few different types of operators that can be used with values and variables.
 
@@ -483,8 +492,9 @@ num = int(data)
 
 ## Additional exercises
 
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50">
-<a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fb0df517-509a-4c15-be24-ae580175954d">Lab Notebook Questions 7-9</a></img>
+<table>
+<tr><td><img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td></tr>
+<tr><td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fb0df517-509a-4c15-be24-ae580175954d">Lab Notebook Questions 7-9</a></td></tr></table>
 
 Q7:  Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.
   
