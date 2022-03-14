@@ -38,7 +38,8 @@ This lab is based on the ["Lab: Programming in Python"](https://www.cs.grinnell.
 This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~cpennycu/) ["Intro to Python/Jupyter" Jupyter notebook](https://www3.nd.edu/~cpennycu/2019/assets/fall/EOC/19.08.29.ipynb) from [CSE 10101 Elements of Computing (Fall 2019)](https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html).
 
 # Table of Contents
-- [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
+- [Lab Notebook Template](#lab-notebook-template)
+  * [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Your First Program](#your-first-program)
 - [Print Statements & ASCII Art](#print-statements--ascii-art)
 - [Data Types](#data-types)
@@ -55,16 +56,24 @@ This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~
   * [Additional exercises](#additional-exercises)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
-# How to submit this lab (and show your work)
+[Click here](https://drive.google.com/file/d/1pmS8_v84HBWRXhmCAqsNsWUbP6DqPTB3/view?usp=sharing) to access this lab procedure as a Jupyter Notebook.
+
+# Lab Notebook Template
+
+Lab notebook template:
+- [`.py` file](https://drive.google.com/file/d/1aj_dL62c4NbFyt3caUEaPeeieUTnj4XK/view?usp=sharing)
+- [Jupyter Notebook](https://drive.google.com/file/d/1rctG4UqPc0NVJhxyb4_c4jlnlTTRVpit/view?usp=sharing)
+
+## How to submit this lab (and show your work)
 
 Moving forward, we'll submit lab notebooks as `.py` files. 
 
 One option is to have a `.py` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
 
 Another option is to have an "official" `.py` file that you are using as a lab notebook (separate from your working/testing file). Use comments in Python to note when you are starting a new question (as well as answering a question).
-  * Example: `Lab5_Notebook_Walden.py`
+  * Example: `Lab_Notebook_Walden.py`
 
-What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
+What gets submitted as the lab notebook is the `Lab_Notebook_Walden.py` file.
 - When in doubt, use comments
 - Be sure you are using comments to note what question you're responding to
 
@@ -75,6 +84,7 @@ What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 <blockquote>Watch out for quotation marks!</blockquote>
 
 ```python
+# print statement
 print ("Welcome to the wild world of computer programming!")
 ```
 2. Save your work as part of the `main.py`. 
@@ -95,6 +105,7 @@ print ("Welcome to the wild world of computer programming!")
 
 5. Add a second print statement to your `main.py` program:
 ```python
+# another print statement
 print("Are we having fun yet?")
 ```
 6. Save your program, and run it in the terminal window.
@@ -173,20 +184,32 @@ because nothing is being done with the string.
 
 15. An integer is a whole number that does not include any decimal (or fractional) values. A float data type includes decimal (or fractional) values.
 ```python
-# Numbers: Int and Float
+# assign variable
 i = 3
+
+# print variable type
 print("i is of type: ", type(i))
+
+# assign another variable
 j = 3.0
+
+# print variable type
 print("j is of type: ", type(j))
 ```
 <blockquote>It may seem odd at first, but in Python, the "equals sign" here does not denote equality. Rather, it is an instruction telling Python to assign the value on its right into the variable on its left.</blockquote>
 
 16. But Python variables can also change their type...
 ```python
-# variable type...can vary
+# assign variable
 i = 3
+
+# print variable type
 print("i is of type: ", type(i))
+
+# reassign variable
 i = i + .5
+
+# print variable type
 print("i is of type: ", type(i))
 ```
 
@@ -194,15 +217,25 @@ print("i is of type: ", type(i))
 
 17. A string is a sequence of characters (letters, numbers, symbols, etc.)
 ```python
+# assign string variable
 s = "Hello world!"
+
+# print variable
 print(s)
 ```
 
 18. Another example of strings at work, this time using concatenation to join strings.
 ```python
+# assign string variable
 myFirstName = "Katherine"
+
+# assign second string variable
 myLastName = "Walden"
+
+# assign third variable using concatenation
 myName = myFirstName + " " + myLastName
+
+# show concatenated string
 print(myName)
 ```
 <blockquote>Concatenation: adding or joining together. For strings, Python will concatenate using the <code>+</code> symbol.</blockquote>
@@ -299,39 +332,34 @@ print(myName)
 <blockquote><a href="https://www.w3schools.com/python/python_operators.asp">Click here</a> to learn more about Python Operators, via W3Schools.</blockquote>
 
 ```python
+# assign variable
 x=4
+
+# show statement type
 print(type(x == 4))
+
+# show statement true/false value
 print(x==4)
 ```
 
+Logical operators can be chained.
+
 ```python
-# Logic operators can be chained.
+# show statement true/false value
 print(1 < 2 < 3)
+
+# show true/false value for second statement
 print(10 < 2 < 3)
 ```
 
 ```python
+# assign integer variables
 x = 3
 y = 18
 z = 10
+
+# show true/false output
 print (x < y < z)
-```
-
-```python
-# a complex sample program that uses Boolean operators
-print("\"True\" is of type: ", type(True))
-myLogicalVariable = True
-
-print(myLogicalVariable)
-print('with a not:', not myLogicalVariable)
-print('with a not not:', not not myLogicalVariable)
-print('True and True:', True and True)
-print('True and False:', True and False)
-print('True or True:', True or True)
-print('True or False:', True or False)
-print("3: ", bool(3))
-print("0: ", bool(0))
-print("-1:", bool(-1))
 ```
 
 <blockquote>Q3: Describe a scenario or situation in which being able to use Boolean operators when programming in Python would be valuable. What kinds of tasks or programs would require Boolean operators? What would Boolean operators enable you to do?</blockquote>  
@@ -350,6 +378,8 @@ print("-1:", bool(-1))
 25. Python follows the PEDMAS order of operations. When in doubt, use parenthesis!
 
 <blockquote>PEDMAS order of operations: parenthesis, exponents, multiplication, division, addition, subtraction</blockquote>
+
+NOTE: The `%f` and `%d` syntax we're seeing in these examples are an example of string formatters in Python. The `%d` formatter is used for decimal values, and the `%f` formatter is used for string values. For more info on string formatters in Python: https://www.learnpython.org/en/String_Formatting
 
 ```python
 # sample program that uses float and integer division, as well as the modulo operator
@@ -382,19 +412,6 @@ print ("278 %% 13 = %d" % (278 % 13))
 print("4 ** 3.8 = %f" % (4 ** 3.8))
 ```
 
-```python
-# sample program that uses the print command to show a variety of number output formats
-# this program requires we import the math library
-import math
-print ("This number (%f) is pi." % math.pi)
-print ("This number (%.3f) is pi." % math.pi)
-print ("This number (%10.3f) is pi." % math.pi)
-print ("This number (%010.3f) is pi." % math.pi)
-print ("This number (%+010.3f) is pi." % math.pi)
-print ("%+010.3f" % -math.pi)
-print ("%e" % 8675309)
-```
-
 <blockquote>Q4: Experiment with a range of basic arithmetic operations in Python. Write a program that involves arithmetic operation. Describe the process of writing this program. What did you want to do in Python? What were the program outputs? What challenges or unexpected results did you encounter? Include your program code as part of the answer to this question.</blockquote>
 
 # Character Strings and Variables
@@ -406,6 +423,7 @@ print ("%e" % 8675309)
 27. Now we're going to write a program that allows the user (i.e. the person running the program) to input a value for the program to use.
 
 28. To allow the user to input a value, we'll use the `input` function.
+
 ```python
 # sample code that uses the input function to create a new str variable and assign the user-provided value to that variable
 str = input("Please enter a word: ")
@@ -423,7 +441,10 @@ print("You typed " + str)
 
 33. We want to convert that string into an integer using the `int()` function.
 ```python
+# assign input string to variable
 data = input("Enter a number: ")
+
+# change variable type
 num = int(data)
 ```
 
@@ -432,13 +453,6 @@ num = int(data)
 35. Try modifying your Q5 program to include the `int()` function. 
 
 <blockquote>Q6: Write a program that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code. </blockquote>
-
-36. An alternative way to handle this situation would be to use a different function to read input from the user. While `input()` can return a string of characters, the `input()` function can also return a number.
-
-37. The user inputs from the `input()` function can be added to other numbers (and do not need to be converted to an integer first).
-```python
-number = input("Please enter a number: ")
-```
 
 ## Additional exercises
 
@@ -459,22 +473,26 @@ In U.S. currency, one dollar ($1.00) equals one hundred (100) cents. The coins u
 
 <blockquote>Note: Consider how store clerks give change to their customers. To be considerate, they always try to give the exact change using the fewest coins possible. It turns out that this can always be done (in U.S. currency) by giving as many quarters as possible, followed by as many dimes as possible, and so on down to pennies.</blockquote>
  
-<blockquote>Q10: Include a link to your Replit workspace for this lab.</blockquote>
+Q10: Include a link to your Replit workspace for this lab.
 
 # How to submit this lab (and show your work)
 
-38. Moving forward, lab notebooks will be submitted as `.py` files. 
+Moving forward, lab notebooks will be submitted as `.py` files. 
 
-39. One option is to have a `.py` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
+One option is to have a `.py` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
 
-40. Another option is to have an "official" `.py` file that you are using as a lab notebook (separate from your working/testing file). Use comments in Python to note when you are starting a new question (as well as answering a question).
-  * Example: `Lab5_Notebook_Walden.py`
+Another option is to have an "official" `.py` file that you are using as a lab notebook (separate from your working/testing file). Use comments in Python to note when you are starting a new question (as well as answering a question).
+- Example: `Lab5_Notebook_Walden.py`
 
-41. What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
+What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 - When in doubt, use comments
 - Be sure you are using comments to note what question you're responding to
 
 # Lab Notebook Questions
+
+Lab notebook template:
+- [`.py` file](https://drive.google.com/file/d/1aj_dL62c4NbFyt3caUEaPeeieUTnj4XK/view?usp=sharing)
+- [Jupyter Notebook](https://drive.google.com/file/d/1rctG4UqPc0NVJhxyb4_c4jlnlTTRVpit/view?usp=sharing)
 
 Q1: What do you expect to see when you run the program? How does that compare to what happened when you ran the program?
 
