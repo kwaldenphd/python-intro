@@ -18,6 +18,14 @@ Python is an object-oriented programming language. It’s comparable to a number
   <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db2fff0-7e4a-45f6-b38a-ae580166b82b">Lab overview</a></td>
   </tr>
   </table>
+  
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=22ef7bf7-edf4-40cd-a9ee-ae5801799cee">Lecture/live coding playlist</a></td>
+  </tr>
+  </table>
+
 
 ## Acknowledgements
 
@@ -67,6 +75,7 @@ This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~
 [Click here](https://drive.google.com/file/d/1pmS8_v84HBWRXhmCAqsNsWUbP6DqPTB3/view?usp=sharing) to access this lab procedure as a Jupyter Notebook.
 
 # Lecture and Live Coding
+
 Throughout this lab, you will see a Panopto icon at the start of select sections.
 
 This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
@@ -79,6 +88,13 @@ Example:
  <tr><td>
 <img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
   <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1db2fff0-7e4a-45f6-b38a-ae580166b82b">Lab overview</a></td>
+  </tr>
+  </table>
+  
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=22ef7bf7-edf4-40cd-a9ee-ae5801799cee">Lecture/live coding playlist</a></td>
   </tr>
   </table>
 
