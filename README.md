@@ -36,7 +36,19 @@ INCLUDE PRELIMINARY BLOCKQUOTE ABOUT COMMENTS
 
 ## Comprehension Check
 
+Console vs shell vs script
+
+Int vs float
+
+String vs Boolean
+
+Specific examples:
+- is `"7"` different than `7` (how)
+- is `"True"` different than `True` (and how)
+
 ## Application
+
+QX: Describe each data type in your own words and show an example
 
 # Variables & Assignment Operators
 
@@ -60,20 +72,74 @@ Checking variable type/contents:
 
 ## Comprehension Check
 
+What are variables, what do they do, how do we create them
+
+Simple vs composite variables
+
+Rules for variable names
+
+What symbol is assignment operator in Python
+
 ## Application
+
+Create named variable for each data type in Python using assignment operator
+
+Check using `print` and `type`
+
+Answers need to include assignment statement and print/type for each data type
+- Int
+- Float
+- String object
+- Boolean T/F
 
 # Arithmetic Operators
 
 Table of arithmetic operators (define them, show examples)
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Modulus
+- Exponents
+- Floor division
 
 Try stuff in console (raw output, using Python as a calculator)
 
 Then connect into variables/assignment
 - INTRODUCE LANGUAGE OF EXPRESSIONS
 
+ALSO MENTION ORDER OF OPERATIONS (PEDMAS)
+
 ## Comprehension Check
 
+Sample math problems, what would be correct output for....
+- Modulus operator
+- Exponent operator
+- Integer/floor division
+- Example that involves order of operations
+
+Show example of arithmetic operator and assignment statement, what terms/concepts/statements apply to this
+- Example of simple vs composite
+- Expression/assignment/statement language
+- Something about data type
+
 ## Application
+
+Explain each / show example
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Modulus
+- Exponents
+- Floor division
+
+
+Check comprehension text on `/` vs `//` with example
+
+TEMPERATURE CONVERSION EQUATION (word problem)
+
+Making change (from set amount)
 
 # Concatenation
 
@@ -85,9 +151,25 @@ Introduce concept:
 
 Emphasize underlying logic- arithmetic operation (addition) vs concatenation
 
+Syntax options for concatenation:
+- `+` plus sign
+- `,` comma
+- Curly bracket syntax
+- f/s syntax
+
 ## Comprehension Check
 
+Difference between addition and concatenation
+- Show example with different data types, what would be the output
+
+Different syntax options
+- Show example, what would be the output
+
 ## Application
+
+QX: Variables for each of the pieces of a standard ND intro (name, year, majors/minors, hall), use concatenation to create the full introduction using any of the syntax options above
+
+QX: Same prompt, but alternate workflow that creates sentences and prints concatenated sentences
 
 # Input & Output (I/O)
 
@@ -113,7 +195,19 @@ Different ways we can interact with variables and output:
 
 ## Comprehension Check
 
+What does I/O stand for
+
+What are some examples in a programming context
+
+Programs that use input- what would we expect to have happen
+- Addition and a string object (concatenation)
+- Division and a string object (error)
+
 ## Application
+
+QX: Favorite color message from user input "Your favorite color is")
+
+QX: Standard ND intro with user inputs.
 
 # Converting Data Types
 
@@ -136,7 +230,16 @@ Show a couple examples of both in action
 
 ## Comprehension Check
 
+Programs that change data type- what would we expect to have happen
+- Convert string input to number, arithmetic operation
+- Try to convert string input (that's not a number) to a number, error message
+- Concatenation with string number input and convert to number, concatenation
+
 ## Application
+
+QX: Temperature conversion formula using user input
+
+QX: Month/days/something time unit conversion
 
 # Putting It All Together
 
@@ -147,6 +250,12 @@ How they'll be expected to document in future lab notebooks
 ## Final Application Questions
 
 FINAL APPLICATION QUESTIONS / PUTTING IT ALL TOGETHER
+
+Pull from existing synthesis notebook questions
+
+Calculating change
+
+
 
 # Lab Notebook Questions
 
