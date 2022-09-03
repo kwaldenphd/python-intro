@@ -255,6 +255,8 @@ FINAL APPLICATION QUESTIONS / PUTTING IT ALL TOGETHER
 
 Pull from existing synthesis notebook questions
 
+ASCII art (mention new line regular expression characters, or multiple print statements)
+
 Calculating change
 
 
