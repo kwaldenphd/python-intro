@@ -103,6 +103,8 @@ Table of arithmetic operators (define them, show examples)
 - Exponents
 - Floor division
 
+https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp
+
 Try stuff in console (raw output, using Python as a calculator)
 
 Then connect into variables/assignment
