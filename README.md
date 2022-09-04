@@ -8,12 +8,14 @@ ACKNOWLEDMGENETS
 
 # Table of Contents
 - [Lecture & Live Coding](#lecture--live-coding)
-- [Key Terms](#key-terms)
+- [Key Concepts](#key-concepts)
 - [Lab Notebook Template](#lab-notebook-template)
 
 ## Lecture & Live Coding
 
-## Key Terms
+## Key Concepts
+
+[Click here](https://github.com/kwaldenphd/internet/blob/main/key-concepts.md) for a full list of key concepts and definitions for this lab.
 
 ## Lab Notebook Template
 
