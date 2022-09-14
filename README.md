@@ -207,21 +207,7 @@ $x = 7
 
 #2: Terms that have other meaning or function in Python can't be used as variable identifiers. For example the name of a built-in function (`type`) can't be used as a variable identifier.
 
-Reserved keywords in Python include:
-
-<font face="Courier New">
-<table width="100%"><tr><td>and</td><td>except</td><td>lambda</td><td>with</td></tr>
-  <tr><td>as</td><td>finally</td><td>nonlocal</td><td>while</td></tr>
-  <tr><td>assert</td><td>false</td><td>None</td><td>yield</td></tr>
-  <tr><td>break</td><td>for</td><td>not</td><td></td></tr>
-  <tr><td>class</td><td>from</td><td>or</td><td></td></tr>
-  <tr><td>continue</td><td>global</td><td>pass</td><td></td></tr>
-  <tr><td>def</td><td>if</td><td>raise</td><td></td></tr>
-  <tr><td>del</td><td>import</td><td>return</td><td></td></tr>
-  <tr><td>elif</td><td>in</td><td>True</td><td></td></tr>
-  <tr><td>else</td><td>is</td><td>try</td><td></td></tr>
-  </table>
- </font>
+Reserved keywords in Python include: <font face="Courier New">and, except, lambda, with, as, finally, nonlocal, while, assert, fale, None, yield, break, for, not, class, from, or, continue, global, pass, def, if, raise, del, import, return, elif, in, True, else, is, try</font>
 
 #3: Best practice is any programming language is to use meaningful variable identifiers. Just calling something `x` or `y` won't be particularly helpful to someone else reading or interacting with your code. That said, overly-complex variable identifiers are prone to user error.
 
