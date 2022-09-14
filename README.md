@@ -302,7 +302,10 @@ x = 5 + 7
 print(x)
 ```
 
-ORDER OF OPERATIONS
+PEDMAS FIGURE
+
+Python follows the PEDMAS order of operations: parenthesis, exponents, multiplication, division, addition, subtraction. 
+- *When in doubt, use parenthesis!*
 
 ## Comprehension Check
 
@@ -337,27 +340,65 @@ Making change (from set amount)
 
 # Concatenation
 
-Introduce concept:
-- Connect to assignment (simple vs composite)
-- Reference the underlying logic
-- Show the syntax
-- Show how it works with different data types
+In most programming languages, **concatenation** involves adding or joining character strings.
 
-Emphasize underlying logic- arithmetic operation (addition) vs concatenation
+For example, we could concatenate the strings `Hello` and `world` to create a `Hello world` message.
 
-Syntax options for concatenation:
-- `+` plus sign
-- `,` comma
-- Curly bracket syntax
-- f/s syntax
+In Python, we use the plus sign `+` to concatenate strings.
+
+One option is to use concatenation as part of a `print()` statement:
+
+```Python
+# concatenation in a print statement
+print("Hello " + "World!")
+```
+
+We can also use concatenation with string variables.
+
+```Python
+# concatenation with string variables
+x = "Hello"
+y = "World"
+
+# concatenation with a print statement
+print(x + y)
+
+# conatenation with variable assignment
+z = x + y
+print(z)
+```
+
+We can compare string concatenation to how the addition operator (`+`) interacts with numeric values.
+
+```Python
+# numeric 'concatenation' in a print statement
+print(5 + 7)
+
+# numeric 'concatenation' with variable assignment
+x = 5
+y = 7
+z = x + y
+print(z)
+```
+
+NOTE: In Python, concatenation operations or the `+` operator will only work on variables or values of a common type.
+
+```Python
+# trying concatenation with an integer and string
+year = 2023
+school = "Notre Dame"
+
+print(school + ", Class of " + year)
+```
+
+In the last section of this lab, we'll talk about how to convert data types to address this issue.
 
 ## Comprehension Check
 
+Describe concatenation in your own words
+
 Difference between addition and concatenation
 - Show example with different data types, what would be the output
-
-Different syntax options
-- Show example, what would be the output
 
 ## Application
 
@@ -367,25 +408,45 @@ QX: Same prompt, but alternate workflow that creates sentences and prints concat
 
 # Input & Output (I/O)
 
-Introduce concept:
-- Connect with work we've done previously with CPU/memory simulators, and overarching principle of what computers "do" (take an input, do something with it, return that to user)
-- Big picture all the different ways we see the concept at work in programming re inputs (user inputs, data, files, etc) and outputs (stored in program memory, show output in console/shell, create/save/modify files, other more complex tasks that can be part of output)
+In programming languages and computing more broadly, `I/O` stands for `Input` and `Output`.
 
-How we're thinking about I/O at this point
-- A lot more to come with reading/writing files, but for now...
-- `input()` and `print()`
-- `print()` we've already seen
-- Big picture what `input()` does (takes input, stores in program by assigning to variable)
-  * `input()` quirks- STORES AS STRING
-  * IF WE WANT TO CHANGE THIS.....introduce concept of converting data types, we'll come back to this
+We've seen `I/O` at work in previous labs, where we provided inputs to the computer (using a CPU simulator or working at the terminal), a task or operation was performed, and there was an endpoint or output for that process.
 
-Example of putting it all together:
-- Sample program where user inputs favorite color (string) and program outputs "Your favorite color" message
+A concrete example would be the assembly language program we wrote for Lab #2: How Comptuters Work (Hardware). We wrote assembly language instructions which served as inputs for the fetch-execute cycle, and the final output for the program was a data value stored in main memory.
 
-Different ways we can interact with variables and output:
-- Concatenation
-- Curly bracket syntax
-- f/s syntax
+Similarly, programming languages can take a variety of inputs (user-provided values, data, files, etc) and return outputs in a variety of formats (data stored in memory, output that shows up in the console, newly-created or -modified files, etc).
+
+In future labs, we'll do more with with aspects of `I/O` that have to do with reading and writing files. But for now, we've already seen `I/O` in action in Python via `print()` statements.
+
+One way Python accepts input is via the `input()` function, which accepts a user input and assigns that to a variable.
+
+A sample program that asks a user to enter their name:
+
+```Python
+# initial prompt
+print("Enter your name: ")
+
+# input function
+name = input()
+
+# output statement
+print("Hello, " + name)
+```
+
+We can modify that program to include the initial prompt as part of the `input()` statement.
+
+```Python
+# initial prompt with input function
+name = input("Enter your name: ")
+
+# output
+print("Hello, " + name)
+```
+
+NOTE: The default data type for a variable created using the `input()` function is a string object. We can change data types using the functions we'll cover in the last section of this lab.
+
+More on Python's `input()` function:
+- [W3Schools, Python input() Function](https://www.w3schools.com/python/ref_func_input.asp)
 
 ## Comprehension Check
 
@@ -405,22 +466,83 @@ QX: Standard ND intro with user inputs.
 
 # Converting Data Types
 
-EXAMPLE of trying to perform arithmetic operation on a string object
+Earlier in this lab we used arithmetic operators to develop a Fahrenheit - Celsius temperature conversion formula. Imagine a scenario in which we want to convert a user-provided temperature.
 
-Describe this as a data type issue
+We could use the `input()` function and then pass that input value to our conversion formula. Let's try it.
 
-As mentioned previously, default for input is string...We might want to change that
+```Python
+temp = input("Enter a temperature in Fahrenheit: ")
 
-We might also run into data type errors 
-- SHOW EXAMPLE OF DATA TYPE ERROR (message or specific example)
+# conversion formula
+celsius = (temp - 32) * (5/9)
 
-So also other scenarios where we need to change how Python is understanding a value/object
+# show celsius output
+print(temp + " degrees in Fahrenheit is " + celsius + " degrees in Celsius")
+```
 
-We can do that using specific functions:
-- `int()`
-- `str()`
+Except this program results in a `TypeError`. In Python, this is a data type error indicating we're trying to perform an operation that's not compatible with the data types we're using.
 
-Show a couple examples of both in action
+Python includes built-in functions that let us convert specific data types.
+
+<table><tr><th>Name</th><th>Python Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>String</td><td><code>str()</code><td><code>"Hello World!"</code></td><td>String of character</td></tr>
+  <tr><td>Integer</td><td><code>int()</code><td><code>7</code></td><td>Whole number</td></tr>
+  <tr><td>Float</td><td><code>float()</code><td><code>1.5</code></td><td>Decimal number, or number with floating point values</td></tr>
+  <tr><td></td>Boolean<td><code>bool()</code><td><code>True</code></td><td>Two-state system that typically represents true/false values</td></tr>
+  <tr><td>Nothing/Null/NoneType</td><td><code>NoneType</code><td><code>None</code></td><td>No value</td></tr> 
+  </table>
+
+Remember our program from the [Concatenation](#concatenation) section of the lab:
+
+```Python
+# trying concatenation with an integer and string
+year = 2023
+school = "Notre Dame"
+
+print(school + ", Class of " + year)
+```
+
+We can use the `str()` function to convert `year` from an integer to a string object. That will allow the final `print()` statement to run.
+
+```Python
+# assign year variable
+year = 2023
+
+# convert to string
+year = str(year)
+
+# assign school variable
+school = "Notre Dame"
+
+# output
+print(school + ", Class of " + year)
+```
+
+We could combine the first two lines of this program to convert the data type when we create the variable.
+
+```Python
+# assign year variable and convert to string
+year = str(2023)
+
+# assign school variable
+school = "Notre Dame"
+
+# output
+print(school + ", Class of " + year)
+```
+
+An alternate workflow for instructing Python to treat `2023` as a string of characters:
+
+```Python
+# assign year variable as string
+year = "2023"
+
+# assign school variable
+school = "Notre Dame"
+
+# output
+print(school + ", Class of " + year)
+```
 
 ## Comprehension Check
 
@@ -435,11 +557,18 @@ QX: Temperature conversion formula using user input
 
 QX: Month/days/something time unit conversion
 
-# Putting It All Together
+# How to submit this lab (and show your work)
 
-DOCUMENTING VIA COMMENTS- single vs. multi-line, best practices
+Moving forward, lab notebooks will be submitted as `.py` files. 
 
-How they'll be expected to document in future lab notebooks
+One option is to have a `.py` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
+
+Another option is to have an "official" `.py` file that you are using as a lab notebook (separate from your working/testing file). Use comments in Python to note when you are starting a new question (as well as answering a question).
+- Example: `Lab5_Notebook_Walden.py`
+
+What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
+- When in doubt, use comments
+- Be sure you are using comments to note what question you're responding to
 
 ## Final Application Questions
 
@@ -450,8 +579,6 @@ Pull from existing synthesis notebook questions
 ASCII art (mention new line regular expression characters, or multiple print statements)
 
 Calculating change
-
-
 
 # Lab Notebook Questions
 
