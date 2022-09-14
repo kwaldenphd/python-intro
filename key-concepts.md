@@ -37,8 +37,19 @@ Specific code commands that show up in this lab:
 - DEF
 
 **Comments** (in a programming language)
-- In general
-- Specific Python syntax (single line, multi line)
+- Comments mark instructions or information in the code that will not run as part of the program. Comments are useful for testing, documenting, and describing what your code is doing. 
+-In Python, single line comments begin with a pound `#` symbol and multi-line comments are marked by three sets of double quotation marks `"""`.
+
+```Python
+# This is an example of a single line comment in Python
+
+"""
+This is an example of a multi-line comment in Python
+"""
+```
+
+For more on comments in Python:
+- [W3Schools, Python Comments](https://www.w3schools.com/python/python_comments.asp)
 
 **Concatenation**
 - Concept
