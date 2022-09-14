@@ -207,7 +207,20 @@ $x = 7
 
 #2: Terms that have other meaning or function in Python can't be used as variable identifiers. For example the name of a built-in function (`type`) can't be used as a variable identifier.
 
-[Click here]() for a list of reserved keywords in Python.
+Reserved keywords in Python include:
+
+<p style="font-family: 'Courier New'">
+<table><tr><td>and</td><td>except</td><td>lambda</td><td>with</td></tr>
+  <tr><td>as</td><td>finally</td><td>nonlocal</td><td>while</td></tr>
+  <tr><td>assert</td><td>false</td><td>None</td><td>yield</td></tr>
+  <tr><td>break</td><td>for</td><td>not</td><td></td></tr>
+  <tr><td>class</td><td>from</td><td>or</td><td></td></tr>
+  <tr><td>continue</td><td>global</td><td>pass</td><td></td></tr>
+  <tr><td>def</td><td>if</td><td>raise</td><td></td></tr>
+  <tr><td>del</td><td>import</td><td>return</td><td></td></tr>
+  <tr><td>elif</td><td>in</td><td>True</td><td></td></tr>
+  <tr><td>else</td><td>is</td><td>try</td><td></td></tr>
+  </table>
 
 #3: Best practice is any programming language is to use meaningful variable identifiers. Just calling something `x` or `y` won't be particularly helpful to someone else reading or interacting with your code. That said, overly-complex variable identifiers are prone to user error.
 
@@ -253,23 +266,43 @@ Answers need to include assignment statement and print/type for each data type
 
 # Arithmetic Operators
 
-Table of arithmetic operators (define them, show examples)
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Modulus
-- Exponents
-- Floor division
+Most programming languages allow you to perform arithmetic operations and mathematical calculations using **arithmetic operators**.
 
-https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp
+Common arithmetic operations (with Python examples) include:
 
-Try stuff in console (raw output, using Python as a calculator)
+<table><tr><th>Name</th><th>Python Syntax</th><th>Python Example</th><th>Description</th></tr>
+  <tr><td>Addition</td><td><code>+</code><td><code>5 + 6</code></td><td>Adds values</td></tr>
+  <tr><td>Subtraction</td><td><code>-</code><td><code>5 - 6</code></td><td>Subtracts values</td></tr>
+  <tr><td>Multiplication</td><td><code>*</code><td><code>5 * 6</code></td><td>Multiples values</td></tr>
+  <tr><td>Integer division</td><td><code>//</code><td><code>5 // 6</code></td><td>Divides values, integers (whole numbers)</td></tr> 
+  <tr><td>Float division</td><td><code>/</code><td><code>5 / 6</code></td><td>Divides values, floating point numbers (decimal values)</td></tr>
+  <tr><td>Modulo</td><td><code>%</code><td><code>5 % 6</code></td><td>Returns or retrieves remainder (whole number) from division operation</td></tr>  
+  <tr><td>Exponent</td><td><code>**</code><td><code>5 ** 6</code></td><td>Calculates exponent</td></tr>
+  </table>
+  
+More on arithmetic operators (in general): "[Arithmetic Operators](https://press.rebus.community/programmingfundamentals/chapter/arithmetic-operators/)" from Busbee and Braunschweig's *[Coding Fundamentals](https://press.rebus.community/programmingfundamentals)*:
 
-Then connect into variables/assignment
-- INTRODUCE LANGUAGE OF EXPRESSIONS
+For more on arithmetic operators in Python:
+- [W3Schools, Python Arithmetic Operators](https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp)
 
-ALSO MENTION ORDER OF OPERATIONS (PEDMAS)
+We can run arithmetic operations directly in the console or in a script.
+
+```Python
+# sample arithmetic operation
+5 + 7
+```
+
+But we can also assign the output of an arithmetic operation to a variable.
+
+```Python
+# sample arithmetic operation where output is assigned to variable
+x = 5 + 7
+
+# show variable value
+print(x)
+```
+
+ORDER OF OPERATIONS
 
 ## Comprehension Check
 
