@@ -2,25 +2,25 @@
 
 Specific code commands that show up in this lab:
 
-<table><tr><th>Name</th><th>Syntax</th><th>Description</th></tr>
-  <tr><td>Type function</td><td><code>type()</code></td><td>Returns data type</td></tr>
-  <tr><td>Print function</td><td><code>print()</code></td><td>Shows specific output in console or shell</td></tr>
-  <tr><td>Concatenation</td><td><code>+, "Hello" + " " + "World!"</code></td><td>Adds strings together</td></tr>
-  <tr><td>Assignment operator</td><td><code>=, x = 3</code></td><td>Assigns value(s) to variable</td></tr>
+<table><tr><th>Name</th><th>Syntax</th><th>Example></th><th>Description</th></tr>
+  <tr><td>Type function</td><td><code>type()</code></td><td><code>type("Hello world!")</code></td><td>Returns data type</td></tr>
+  <tr><td>Print function</td><td><code>print()</code></td><td><code>print("Hello world!")</code></td><td>Shows specific output in console or shell</td></tr>
+  <tr><td>Concatenation</td><td><code>+</code></td><td><code>print("Hello" + " " + "World!")</code></td><td>Adds strings together</td></tr>
+  <tr><td>Assignment operator</td><td><code>=</code></td><td><code>x = 3</code></td><td>Assigns value(s) to variable</td></tr>
   </table>
 
 **Arithmetic operators**
 - Used with numeric values for mathmetical operations
   * More info: [W3Schools](https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp)
 
-<table><tr><th>Name</th><th>Syntax</th><th>Description</th></tr>
-  <tr><td>Addition</td><td><code>+, 5 + 6</code></td><td>Adds values</td></tr>
-  <tr><td>Subtraction</td><td><code>-, 5 - 6</code></td><td>Subtracts values</td></tr>
-  <tr><td>Multiplication</td><td><code>*, 5 * 6</code></td><td>Multiples values</td></tr>
-  <tr><td>Integer division</td><td><code>//, 5 // 6</code></td><td>Divides values, integers (whole numbers)</td></tr> 
-  <tr><td>Float division</td><td><code>/, 5 / 6</code></td><td>Divides values, floating point numbers (decimal values)</td></tr>
-  <tr><td>Modulo</td><td><code>%, 5 % 6</code></td><td>Returns or retrieves remainder (whole number) from division operation</td></tr>  
-  <tr><td>Exponent</td><td><code>**, 5 ** 6</code></td><td>Calculates exponent</td></tr>
+<table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>Addition</td><td><code>+</code><td><code>5 + 6</code></td><td>Adds values</td></tr>
+  <tr><td>Subtraction</td><td><code>-</code><td><code>5 - 6</code></td><td>Subtracts values</td></tr>
+  <tr><td>Multiplication</td><td><code>*</code><td><code>5 * 6</code></td><td>Multiples values</td></tr>
+  <tr><td>Integer division</td><td><code>//</code><td><code>5 // 6</code></td><td>Divides values, integers (whole numbers)</td></tr> 
+  <tr><td>Float division</td><td><code>/</code><td><code>5 / 6</code></td><td>Divides values, floating point numbers (decimal values)</td></tr>
+  <tr><td>Modulo</td><td><code>%</code><td><code>5 % 6</code></td><td>Returns or retrieves remainder (whole number) from division operation</td></tr>  
+  <tr><td>Exponent</td><td><code>**</code><td><code>5 ** 6</code></td><td>Calculates exponent</td></tr>
   </table>
 
 **ASCII Art**
@@ -52,12 +52,12 @@ Specific code commands that show up in this lab:
 - DEF
 - [W3Schools, Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
 
-<table><tr><th>Name</th><th>Syntax</th><th>Description</th></tr>
-  <tr><td>String</td><td><code>str, "Hello World!"</code></td><td>String of character</td></tr>
-  <tr><td>Integer</td><td><code>int, 7</code></td><td>Whole number</td></tr>
-  <tr><td></td><td><code></code></td><td></td></tr>
-  <tr><td></td><td><code></code></td><td></td></tr>
-  <tr><td></td><td><code></code></td><td></td></tr> 
+<table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>String</td><td><code>str</code><td><code>"Hello World!"</code></td><td>String of character</td></tr>
+  <tr><td>Integer</td><td><code>int</code><td><code>7</code></td><td>Whole number</td></tr>
+  <tr><td></td><td><code></code><td><code></code></td><td></td></tr>
+  <tr><td></td><td><code></code><td><code></code></td><td></td></tr>
+  <tr><td></td><td><code></code><td><code></code></td><td></td></tr> 
   </table>
   
 **Expression**
