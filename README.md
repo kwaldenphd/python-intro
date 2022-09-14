@@ -1,10 +1,28 @@
 # Getting Started With Python (basic syntax & data types)
 
-CC STATEMENT
+<a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>This tutorial was written by Katherine Walden and is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
-OVERVIEW/GOALS
+## Lab Overview & Goals
 
-ACKNOWLEDMGENETS
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=ff776195-c52e-4083-b903-aef40171360f">Lecture/Live Coding Playlist</a></td>
+  </tr>
+  </table>
+
+## Acknowledgements
+
+Severance Python For Everyone
+
+W3Schools Python tutorials
+
+Portions of this lab are adapted from the ["Lab: Programming in Python"](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python1.html) and ["Lab: Numbers in Python"](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python2.html) lab materials developed by [Janet Davis](https://cs.whitman.edu/~davisj/) for the the [CSC 105 "The Digital Age" course](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/). 
+
+This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~cpennycu/) ["Intro to Python/Jupyter" Jupyter notebook](https://www3.nd.edu/~cpennycu/2019/assets/fall/EOC/19.08.29.ipynb) from [CSE 10101 Elements of Computing (Fall 2019)](https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html).
+
+(Kenneth Leroy Busbee and Dave Braunschweig, "[Data Types](https://press.rebus.community/programmingfundamentals/chapter/data-types/)" in *Programming Fundamentals*)
 
 # Table of Contents
 - [Lecture & Live Coding](#lecture--live-coding)
@@ -13,28 +31,126 @@ ACKNOWLEDMGENETS
 
 ## Lecture & Live Coding
 
+Throughout this lab, you will see a Panopto icon at the start of select sections.
+
+This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
+
+You can click the link in the figure caption to access these materials (ND users only).
+
+Example:
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=ff776195-c52e-4083-b903-aef40171360f">Lecture/Live Coding Playlist</a></td>
+  </tr>
+  </table>
+
 ## Key Concepts
 
 [Click here](https://github.com/kwaldenphd/python-intro/blob/draft/key-concepts.md) for a full list of key concepts and definitions for this lab.
 
 ## Lab Notebook Template
 
+[Click here]() to make a copy of the Replit template for this lab.
+
+Alternatives:
+- [`.py` template]()
+- [Jupyter Notebook, `.ipynb`]()
+
+## How to submit this lab (and show your work)
+
+Moving forward, we'll submit lab notebooks as `.py` files. 
+
+One option is to have a `.py` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
+
+Another option is to have an "official" `.py` file that you are using as a lab notebook (separate from your working/testing file). Use comments in Python to note when you are starting a new question (as well as answering a question).
+  * Example: `Lab_Notebook_Walden.py`
+
+What gets submitted as the lab notebook is the `Lab_Notebook_Walden.py` file.
+- When in doubt, use comments
+- Be sure you are using comments to note what question you're responding to
+
 # How We Got to Python / Why Programming Languages
 
-# Data Types
+<table>
+<tr><td><img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td></tr>
+<tr><td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b873ef6-c961-4ac1-a493-ae5801666f17">Your First Program</a></td></tr></table>
 
-Define each of the data types
-- Int
-- Float
-- String object
-- Boolean T/F
+## Key Terms
 
-Using `type` 
-- THIS IS AN EXAMPLE OF A STATEMENT
 
-DISCUSS DIFFERENCE BETWEEN CONSOLE, SHELL, and SCRIPT
+## Comprehension Check
 
-INCLUDE PRELIMINARY BLOCKQUOTE ABOUT COMMENTS
+# Your First Program
+
+## Data Types
+
+"A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, including integer, real, character or string, and Boolean" (Kenneth Leroy Busbee and Dave Braunschweig, "[Data Types](https://press.rebus.community/programmingfundamentals/chapter/data-types/)" in *Programming Fundamentals*)
+
+How a programming language recognizes or understands the type of information shapes how it executes specific commands or operations.
+
+Commonly-used data types (with Python examples) include:
+
+<table><tr><th>Name</th><th>Python Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>String</td><td><code>str()</code><td><code>"Hello World!"</code></td><td>String of character</td></tr>
+  <tr><td>Integer</td><td><code>int()</code><td><code>7</code></td><td>Whole number</td></tr>
+  <tr><td>Float</td><td><code>float()</code><td><code>1.5</code></td><td>Decimal number, or number with floating point values</td></tr>
+  <tr><td></td>Boolean<td><code>bool()</code><td><code>True</code></td><td>Two-state system that typically represents true/false values</td></tr>
+  <tr><td>Nothing/Null/NoneType</td><td><code>NoneType</code><td><code>None</code></td><td>No value</td></tr> 
+  </table>
+  
+More on data types, from Busbee and Braunschweig's *[Coding Fundamentals](https://press.rebus.community/programmingfundamentals)*:
+- [Integer](https://press.rebus.community/programmingfundamentals/chapter/integer-data-type/)
+- [Floating Point](https://press.rebus.community/programmingfundamentals/chapter/floating-point-data-type/)
+- [String](https://press.rebus.community/programmingfundamentals/chapter/string-data-type/)
+- [Boolean](https://press.rebus.community/programmingfundamentals/chapter/boolean-data-type/)
+- [Nothing](https://press.rebus.community/programmingfundamentals/chapter/nothing-data-type/)
+
+For more on data types in Python:
+- [W3Schools, Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
+
+We can use the `type()` function in Python to check an object or value's data type.
+- `type` is the function name
+- The value or information we are passing to the function goes inside the parenthesis
+
+```Python
+# a type example
+type("Hello world!")
+```
+
+## Comments
+
+Comments mark instructions or information in the code that will not run as part of the program. Comments are useful for testing, documenting, and describing what your code is doing. 
+
+In Python, single line comments begin with a pound `#` symbol and multi-line comments are marked by three sets of double quotation marks `"""`.
+
+```Python
+# This is an example of a single line comment in Python
+
+"""
+This is an example of a multi-line comment in Python
+"""
+```
+
+For more on comments in Python:
+- [W3Schools, Python Comments](https://www.w3schools.com/python/python_comments.asp)
+
+## Running Your Program
+
+Earlier in the semester, we wrote an assembly language program that ran when we pressed the `Execute` button.
+
+In most programming languages, there are a few common options for how you run or execute specific lines of code, sections of code, or an entire program.
+
+REPLIT SCREENSHOT
+
+Most integrated development environments (IDEs) include two locations where you can execute code:
+- We can type commands and run programs in the **console**, but those instructions are not saved and aren't available outside the current working session.
+- We can also type commands and run programs in a **script**. This is a file that is saved as part of the project/workspace. It's available outside the current working session and can be reopened, modified, or executed (as an entire program).
+
+A couple other notes on consoles and scripts:
+- When we run a piece of code in our script, the output or result will be shown in the console.
+- We can also run an entire script at the command line (i.e. `python main.py`)
 
 ## Comprehension Check
 
@@ -50,37 +166,78 @@ Specific examples:
 
 ## Application
 
-QX: Describe each data type in your own words and show an example
+QX: Describe each data type in your own words and show an example (using type)
 
 # Variables & Assignment Operators
 
-Define variables
-- What they are
-- How we create them
-- Simple vs composite
+In most programming languages, variables work as "countainers for storing data values" ([W3Schools, Python Variables](https://www.w3schools.com/python/python_variables.asp))
 
-Python rules for variable names
-- Start with letter or undescore
-- Reserved words (MAKE A DOC WITH A LIST OF RESERVED TERMS)
-- Meaningful variable names
+We create a variable by assigning a value to that variable name using an **assignment operator**.
 
-Define assignment operator
-- Connect to variables
-- Simple vs composite
+"An assignment statement sets and/or re-sets the value stored in the storage location(s) denoted by a variable name; in other words, it copies a value into the variable...The assignment operator has two operands. The one to the left of the operator is usually an identifier name for a variable. The one to the right of the operator is a value" (Kenneth Leroy Busbee and Dave Braunschweig, "[Assignment](https://press.rebus.community/programmingfundamentals/chapter/assignment/)" in *Programming Fundamentals*)
 
-Checking variable type/contents:
-- Reintroduce `type` this time with variable name
-- Introduce `print` (primarily as way of showing variable value, we'll come back to it later/discuss in greater depth)
+```
+[identifier] [assignment symbol] [value]
+```
+
+In Python, the equals sign `=` is the assignment symbol. The underlying syntax for creating a variable in Python using an assignment statement:
+
+```Python
+# general syntax
+identifier = value
+
+# simple variable example
+x = 7
+
+# composite variable example
+y = 5 + 7
+```
+
+Python has a few restrictions and best practices around variable identifiers or names:
+
+#1- They have to start with a letter character or an underscore (no symbols or numeric characters)
+
+```Python
+# example of a valid identifier
+x = 7
+
+# example of an invalid identifier
+$x = 7
+```
+
+#2: Terms that have other meaning or function in Python can't be used as variable identifiers. For example the name of a built-in function (`type`) can't be used as a variable identifier.
+
+[Click here]() for a list of reserved keywords in Python.
+
+#3: Best practice is any programming language is to use meaningful variable identifiers. Just calling something `x` or `y` won't be particularly helpful to someone else reading or interacting with your code. That said, overly-complex variable identifiers are prone to user error.
+
+We can show the value for a variable using Python's `print()` function.
+
+```Python
+# assignment statement
+x = 7
+
+# show variable value
+print(x)
+```
+
+We can also show a variable's data type using the `type()` function.
+
+```Python
+# assignment statement
+y = "Hello world!"
+
+# show type
+type(y)
+```
 
 ## Comprehension Check
 
-What are variables, what do they do, how do we create them
+What are variables, what do they do
 
-Simple vs composite variables
+How do we create variables in Python, assignment statement
 
 Rules for variable names
-
-What symbol is assignment operator in Python
 
 ## Application
 
