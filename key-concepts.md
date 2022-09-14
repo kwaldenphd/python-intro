@@ -49,16 +49,27 @@ Specific code commands that show up in this lab:
 - DEF
 
 **Data types**
-- DEF
-- [W3Schools, Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
+- "A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, including integer, real, character or string, and Boolean" (Kenneth Leroy Busbee and Dave Braunschweig, "[Data Types](https://press.rebus.community/programmingfundamentals/chapter/data-types/)" in *Programming Fundamentals*)
 
-<table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
-  <tr><td>String</td><td><code>str</code><td><code>"Hello World!"</code></td><td>String of character</td></tr>
-  <tr><td>Integer</td><td><code>int</code><td><code>7</code></td><td>Whole number</td></tr>
-  <tr><td></td><td><code></code><td><code></code></td><td></td></tr>
-  <tr><td></td><td><code></code><td><code></code></td><td></td></tr>
-  <tr><td></td><td><code></code><td><code></code></td><td></td></tr> 
+Commonly-used data types (with Python examples) include:
+
+<table><tr><th>Name</th><th>Python Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>String</td><td><code>str()</code><td><code>"Hello World!"</code></td><td>String of character</td></tr>
+  <tr><td>Integer</td><td><code>int()</code><td><code>7</code></td><td>Whole number</td></tr>
+  <tr><td>Float</td><td><code>float()</code><td><code>1.5</code></td><td>Decimal number, or number with floating point values</td></tr>
+  <tr><td></td>Boolean<td><code>bool()</code><td><code>True</code></td><td>Two-state system that typically represents true/false values</td></tr>
+  <tr><td>Nothing/Null/NoneType</td><td><code>NoneType</code><td><code>None</code></td><td>No value</td></tr> 
   </table>
+  
+More on data types, from Busbee and Braunschweig's *[Coding Fundamentals](https://press.rebus.community/programmingfundamentals)*:
+- [Integer](https://press.rebus.community/programmingfundamentals/chapter/integer-data-type/)
+- [Floating Point](https://press.rebus.community/programmingfundamentals/chapter/floating-point-data-type/)
+- [String](https://press.rebus.community/programmingfundamentals/chapter/string-data-type/)
+- [Boolean](https://press.rebus.community/programmingfundamentals/chapter/boolean-data-type/)
+- [Nothing](https://press.rebus.community/programmingfundamentals/chapter/nothing-data-type/)
+
+For more on data types in Python:
+- [W3Schools, Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
   
 **Expression**
 - DEF
@@ -113,6 +124,14 @@ Specific code commands that show up in this lab:
 **String function**
 - DEF
 - [W3Schools, Python str() Function](https://www.w3schools.com/python/ref_func_str.asp)
+
+**Type function**
+- `type()`: Used to check an object or value's data type.
+
+```Python
+# a type example
+type("Hello world!")
+```
 
 **Variables**
 - Definition
