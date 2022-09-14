@@ -43,13 +43,23 @@ Specific code commands that show up in this lab:
 **Concatenation**
 - Concept
 - Syntax
+- [W3Schools, String Concatenation](https://www.w3schools.com/python/gloss_python_string_concatenation.asp)
 
 **Console**
 - DEF
 
 **Data types**
 - DEF
+- [W3Schools, Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
 
+<table><tr><th>Name</th><th>Syntax</th><th>Description</th></tr>
+  <tr><td>String</td><td><code>str, "Hello World!"</code></td><td>String of character</td></tr>
+  <tr><td>Integer</td><td><code>int, 7</code></td><td>Whole number</td></tr>
+  <tr><td></td><td><code></code></td><td></td></tr>
+  <tr><td></td><td><code></code></td><td></td></tr>
+  <tr><td></td><td><code></code></td><td></td></tr> 
+  </table>
+  
 **Expression**
 - DEF
 
@@ -62,6 +72,7 @@ Specific code commands that show up in this lab:
 
 **Input function**
 - DEF
+- [W3Schools, Python input() Function](https://www.w3schools.com/python/ref_func_input.asp)
 
 **Integer** (data type)
 - DEF
@@ -74,11 +85,13 @@ Specific code commands that show up in this lab:
 
 **Print function**
 - DEF
+- [W3Schools, Python print() Function](https://www.w3schools.com/python/ref_func_print.asp)
 
 **Regular Expressions**
 - Big concept
 - Specific examples
 - What we're using in this lab (newline character)
+- [W3Schools, Python RegEx](https://www.w3schools.com/python/python_regex.asp)
 
 **Reserved Keywords**
 - DEF
@@ -94,9 +107,12 @@ Specific code commands that show up in this lab:
 
 **String**
 - DEF
+- [W3Schools, Python Strings](https://www.w3schools.com/python/python_strings.asp)
+- NOTE: We're going to have a whole lab coming up on strings.
 
 **String function**
 - DEF
+- [W3Schools, Python str() Function](https://www.w3schools.com/python/ref_func_str.asp)
 
 **Variables**
 - Definition
