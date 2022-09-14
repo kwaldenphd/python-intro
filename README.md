@@ -209,8 +209,8 @@ $x = 7
 
 Reserved keywords in Python include:
 
-<p><font face="Courier New">
-<table><tr><td>and</td><td>except</td><td>lambda</td><td>with</td></tr>
+<font face="Courier New">
+<table width="100%"><tr><td>and</td><td>except</td><td>lambda</td><td>with</td></tr>
   <tr><td>as</td><td>finally</td><td>nonlocal</td><td>while</td></tr>
   <tr><td>assert</td><td>false</td><td>None</td><td>yield</td></tr>
   <tr><td>break</td><td>for</td><td>not</td><td></td></tr>
@@ -221,7 +221,7 @@ Reserved keywords in Python include:
   <tr><td>elif</td><td>in</td><td>True</td><td></td></tr>
   <tr><td>else</td><td>is</td><td>try</td><td></td></tr>
   </table>
- </font></p>
+ </font>
 
 #3: Best practice is any programming language is to use meaningful variable identifiers. Just calling something `x` or `y` won't be particularly helpful to someone else reading or interacting with your code. That said, overly-complex variable identifiers are prone to user error.
 
