@@ -164,10 +164,6 @@ Specific examples:
 - is `"7"` different than `7` (how)
 - is `"True"` different than `True` (and how)
 
-## Application
-
-QX: Describe each data type in your own words and show an example (using type)
-
 # Variables & Assignment Operators
 
 In most programming languages, variables work as "countainers for storing data values" ([W3Schools, Python Variables](https://www.w3schools.com/python/python_variables.asp))
@@ -241,7 +237,7 @@ Rules for variable names
 
 ## Application
 
-Create named variable for each data type in Python using assignment operator
+QX: Create named variable for each data type in Python using assignment operator
 
 Check using `print` and `type`
 
@@ -316,14 +312,21 @@ Explain each / show example
 - Division
 - Modulus
 - Exponents
-- Floor division
 
+QX: Write a program that uses arithmetic operators to convert a specific Farenheit temperature value and output its Celsius representation. Answer to this question includes program + comments that document process and explain your code.
 
-Check comprehension text on `/` vs `//` with example
+<blockquote>The conversion equation is: <code>celsius = (fahrenheit - 32.0) * 5.0 / 9.0</code></blockquote>
 
-TEMPERATURE CONVERSION EQUATION (word problem)
+QX: Write a program that calculates the fewest number of U.S. coins needed to make change for a 73 cent remainder. To put that another way- write a program that determines the smallest number of coins in each U.S. denomination needed to make up 73 cents. Answer to this question includes program + comments that document process and explain your code.
 
-Making change (from set amount)
+In U.S. currency, one dollar ($1.00) equals one hundred (100) cents. The coins used to make change have a face value in cents.
+
+- Quarter = 25 cents
+- Dime = 10 cents
+- Nickel = 5 cents
+- Penny = 1 cent
+
+<blockquote>This workflow mirrors how store clerks give change to their customers. To be considerate, they always try to give the exact change using the fewest coins possible. It turns out that this can always be done (in U.S. currency) by giving as many quarters as possible, followed by as many dimes as possible, and so on down to pennies.</blockquote>
 
 # Concatenation
 
@@ -391,7 +394,7 @@ Difference between addition and concatenation
 
 QX: Variables for each of the pieces of a standard ND intro (name, year, majors/minors, hall), use concatenation to create the full introduction using any of the syntax options above
 
-QX: Same prompt, but alternate workflow that creates sentences and prints concatenated sentences
+QX: Write a program that creates `first_name` and `last_name` variables, and then uses concatenation to output a `full_name` variable. Answer to this question includes program + comments that document process and explain your code.
 
 # Input & Output (I/O)
 
@@ -447,7 +450,7 @@ Programs that use input- what would we expect to have happen
 
 ## Application
 
-QX: Favorite color message from user input "Your favorite color is")
+QX: Write a program that asks the user to enter their favorite color, and then prints a `"You favorite color is..."` message. Answer to this question includes program + comments that document process and explain your code.
 
 QX: Standard ND intro with user inputs.
 
@@ -540,9 +543,11 @@ Programs that change data type- what would we expect to have happen
 
 ## Application
 
-QX: Temperature conversion formula using user input
+QX: Write a program that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code.
 
-QX: Month/days/something time unit conversion
+QX:  Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.
+
+QX: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.
 
 # How to submit this lab (and show your work)
 
@@ -559,13 +564,74 @@ What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 
 ## Final Application Questions
 
-FINAL APPLICATION QUESTIONS / PUTTING IT ALL TOGETHER
+### ASCII Art
 
-Pull from existing synthesis notebook questions
+"ASCII art is a graphic design technique that uses computers for presentation and consists of pictures pieced together from the 95 printable (from a total of 128) characters defined by the ASCII Standard" ([Wikipedia, "ASCII art"](https://en.wikipedia.org/wiki/ASCII_art))
 
-ASCII art (mention new line regular expression characters, or multiple print statements)
+An example of ASCII art output:
 
-Calculating change
+```
+           * *
+          *   *
+           * *
+            *
+          * * *
+         *  *  *
+        *   *   *
+            *
+          *   *
+         *     *
+        *       *
+       *         *
+      *           *
+```
+
+One option to create this output in Python is to use multiple print statements:
+
+```Python
+print("     * *")
+print("    *   *")
+print("     * *")
+print("      *")
+print("    * * *")
+print("   *  *  *")
+print("  *   *   *")
+print("      *")
+print("    *   *")
+print("   *     *")
+print("  *       *")
+print(" *         *")
+print("*           *")
+```
+
+Another option would be to use regular expression special characters to note when we want to mark line breaks and tabs.
+
+What are regular expressions? Generally, regular expressions (or regex) are special characters or character sequences that form a search pattern.
+- More on regular expressions in Python: [W3Schools, Python Regex](https://www.w3schools.com/python/python_regex.asp)
+
+A couple special characters that might be useful for ASCII art:
+- `\n` (new line)
+- `\r` (carriage return)
+- `\t` (tab)
+
+How we might create the same stick figure ASCII art using regular expressions:
+
+```Python
+
+
+QX: Write a program that creates your own ASCII art. You're welcome to consult the [ASCII Art Archive](https://www.asciiart.eu/) for inspiration. Answer to this question includes program + comments that document process and explain your code.
+
+### Calculating Change
+
+QX: Write a program that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
+
+In U.S. currency, one dollar ($1.00) equals one hundred (100) cents. The coins used to make change have a face value in cents.
+
+- Quarter = 25 cents
+- Dime = 10 cents
+- Nickel = 5 cents
+- Penny = 1 cent
+
 
 # Lab Notebook Questions
 
