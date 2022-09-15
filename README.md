@@ -28,6 +28,17 @@ This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~
 - [Lecture & Live Coding](#lecture--live-coding)
 - [Key Concepts](#key-concepts)
 - [Lab Notebook Template](#lab-notebook-template)
+- [Your First Program](#your-first-program)
+  * [Data Types](#data-types)
+  * [Comments](#comments)
+  * [Running Your Program](#running-your-program)
+- [Variables & Assignment Operators](#variables--assignment-operators)
+- [Arithmetic Operators](#arithmetic-operators)
+- [Concatenation](#concatenation)
+- [Input & Output (I/O)](#input--output-io)
+- [Converting Data Types](#converting-data-types)
+- [How to submit this lab (and show your work)](how-to-submit-this-lab-and-show-your-work)
+- [Lab Notebook Questions](#lab-notebook-questions)
 
 ## Lecture & Live Coding
 
