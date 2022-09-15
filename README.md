@@ -142,7 +142,7 @@ Earlier in the semester, we wrote an assembly language program that ran when we 
 
 In most programming languages, there are a few common options for how you run or execute specific lines of code, sections of code, or an entire program.
 
-REPLIT SCREENSHOT
+<p align="center"><img src="https://github.com/kwaldenphd/python-intro/blob/main/images/Replit_Python_Screenshot.png?raw=true" width="500"></p>
 
 Most integrated development environments (IDEs) include two locations where you can execute code:
 - We can type commands and run programs in the **console**, but those instructions are not saved and aren't available outside the current working session.
@@ -237,7 +237,7 @@ Rules for variable names
 
 ## Application
 
-QX: Create named variable for each data type in Python using assignment operator
+Q1: Create named variable for each data type in Python using assignment operator
 
 Check using `print` and `type`
 
@@ -285,7 +285,7 @@ x = 5 + 7
 print(x)
 ```
 
-PEDMAS FIGURE
+<p align="center"><img src="https://github.com/kwaldenphd/python-intro/blob/main/images/PEDMAS.png?raw=true" width="500"></p>
 
 Python follows the PEDMAS order of operations: parenthesis, exponents, multiplication, division, addition, subtraction. 
 - *When in doubt, use parenthesis!*
@@ -305,7 +305,7 @@ Show example of arithmetic operator and assignment statement, what terms/concept
 
 ## Application
 
-Explain each / show example
+Q2: Explain each / show example
 - Addition
 - Subtraction
 - Multiplication
@@ -313,11 +313,11 @@ Explain each / show example
 - Modulus
 - Exponents
 
-QX: Write a program that uses arithmetic operators to convert a specific Farenheit temperature value and output its Celsius representation. Answer to this question includes program + comments that document process and explain your code.
+Q3: Write a program that uses arithmetic operators to convert a specific Farenheit temperature value and output its Celsius representation. Answer to this question includes program + comments that document process and explain your code.
 
 <blockquote>The conversion equation is: <code>celsius = (fahrenheit - 32.0) * 5.0 / 9.0</code></blockquote>
 
-QX: Write a program that calculates the fewest number of U.S. coins needed to make change for a 73 cent remainder. To put that another way- write a program that determines the smallest number of coins in each U.S. denomination needed to make up 73 cents. Answer to this question includes program + comments that document process and explain your code.
+Q4: Write a program that calculates the fewest number of U.S. coins needed to make change for a 73 cent remainder. To put that another way- write a program that determines the smallest number of coins in each U.S. denomination needed to make up 73 cents. Answer to this question includes program + comments that document process and explain your code.
 
 In U.S. currency, one dollar ($1.00) equals one hundred (100) cents. The coins used to make change have a face value in cents.
 
@@ -392,9 +392,9 @@ Difference between addition and concatenation
 
 ## Application
 
-QX: Variables for each of the pieces of a standard ND intro (name, year, majors/minors, hall), use concatenation to create the full introduction using any of the syntax options above
+Q5: Variables for each of the pieces of a standard ND intro (name, year, majors/minors, hall), use concatenation to create the full introduction using any of the syntax options above
 
-QX: Write a program that creates `first_name` and `last_name` variables, and then uses concatenation to output a `full_name` variable. Answer to this question includes program + comments that document process and explain your code.
+Q6: Write a program that creates `first_name` and `last_name` variables, and then uses concatenation to output a `full_name` variable. Answer to this question includes program + comments that document process and explain your code.
 
 # Input & Output (I/O)
 
@@ -450,9 +450,9 @@ Programs that use input- what would we expect to have happen
 
 ## Application
 
-QX: Write a program that asks the user to enter their favorite color, and then prints a `"You favorite color is..."` message. Answer to this question includes program + comments that document process and explain your code.
+Q7: Write a program that asks the user to enter their favorite color, and then prints a `"You favorite color is..."` message. Answer to this question includes program + comments that document process and explain your code.
 
-QX: Standard ND intro with user inputs.
+Q8: Standard ND intro with user inputs.
 
 # Converting Data Types
 
@@ -543,11 +543,11 @@ Programs that change data type- what would we expect to have happen
 
 ## Application
 
-QX: Write a program that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code.
+Q9: Write a program that prompts the user to enter two numbers, converts the input values to integers, adds them, and reports the result. Answer to this question includes program + comments that document process and explain your code.
 
-QX:  Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.
+Q10: Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.
 
-QX: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.
+Q11: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.
 
 # How to submit this lab (and show your work)
 
@@ -604,26 +604,11 @@ print(" *         *")
 print("*           *")
 ```
 
-Another option would be to use regular expression special characters to note when we want to mark line breaks and tabs.
-
-What are regular expressions? Generally, regular expressions (or regex) are special characters or character sequences that form a search pattern.
-- More on regular expressions in Python: [W3Schools, Python Regex](https://www.w3schools.com/python/python_regex.asp)
-
-A couple special characters that might be useful for ASCII art:
-- `\n` (new line)
-- `\r` (carriage return)
-- `\t` (tab)
-
-How we might create the same stick figure ASCII art using regular expressions:
-
-```Python
-
-
-QX: Write a program that creates your own ASCII art. You're welcome to consult the [ASCII Art Archive](https://www.asciiart.eu/) for inspiration. Answer to this question includes program + comments that document process and explain your code.
+Q12: Write a program that creates your own ASCII art. You're welcome to consult the [ASCII Art Archive](https://www.asciiart.eu/) for inspiration. Answer to this question includes program + comments that document process and explain your code.
 
 ### Calculating Change
 
-QX: Write a program that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
+Q13: Write a program that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
 
 In U.S. currency, one dollar ($1.00) equals one hundred (100) cents. The coins used to make change have a face value in cents.
 
