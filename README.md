@@ -4,6 +4,14 @@
 
 ## Lab Overview & Goals
 
+This lab provides an overview of foundational programming concepts, with a focus on Python syntax. Topics covered include:
+- Data types
+- Comments
+- Variables & assignment operators
+- Arithmetic operators
+- Concatenation
+- Input/Output
+- Converting data types
 
 <table>
  <tr><td>
@@ -14,15 +22,13 @@
 
 ## Acknowledgements
 
-Severance Python For Everyone
-
-W3Schools Python tutorials
-
 Portions of this lab are adapted from the ["Lab: Programming in Python"](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python1.html) and ["Lab: Numbers in Python"](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python2.html) lab materials developed by [Janet Davis](https://cs.whitman.edu/~davisj/) for the the [CSC 105 "The Digital Age" course](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/). 
 
 This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~cpennycu/) ["Intro to Python/Jupyter" Jupyter notebook](https://www3.nd.edu/~cpennycu/2019/assets/fall/EOC/19.08.29.ipynb) from [CSE 10101 Elements of Computing (Fall 2019)](https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html).
 
-(Kenneth Leroy Busbee and Dave Braunschweig, "[Data Types](https://press.rebus.community/programmingfundamentals/chapter/data-types/)" in *Programming Fundamentals*)
+Definitions and explanations in this lab are adapted from:
+- W3Schools, [Python tutorials and documentation](https://www.w3schools.com/python/)
+- Kenneth Leroy Busbee and Dave Braunschweig, *[Programming Fundamentals: A Modular Structured Approach, 2nd Edition](https://press.rebus.community/programmingfundamentals/)* (Rebus Press, 2018)
 
 # Table of Contents
 - [Lecture & Live Coding](#lecture--live-coding)
@@ -39,6 +45,8 @@ This lab also incorporates elements of [Corey Pennycuff's](https://www3.nd.edu/~
 - [Converting Data Types](#converting-data-types)
 - [How to submit this lab (and show your work)](how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
+
+[Click here]() to access this lab procedure as a Jupyter Notebook.
 
 ## Lecture & Live Coding
 
@@ -165,6 +173,13 @@ A couple other notes on consoles and scripts:
 
 ## Comprehension Check
 
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link">Data Types & the IDE Comprehension Check</a></td>
+  </tr>
+  </table>
+
 Console vs shell vs script
 
 Int vs float
@@ -240,6 +255,13 @@ type(y)
 
 ## Comprehension Check
 
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScZ06JksFcjjrgt1IdbPD1IS38ZLItdonFwg6G-vL-fCUflPg/viewform?usp=sf_link">Variables & Assignment Operators Comprehension Check</a></td>
+  </tr>
+  </table>
+
 What are variables, what do they do
 
 How do we create variables in Python, assignment statement
@@ -302,6 +324,13 @@ Python follows the PEDMAS order of operations: parenthesis, exponents, multiplic
 - *When in doubt, use parenthesis!*
 
 ## Comprehension Check
+
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSel1Y3UC27V97ChdRtXeWIUXBsQ0SR8vW9w2R5IqQE7yXBhww/viewform?usp=sf_link">Arithmetic Operators Comprehension Check</a></td>
+  </tr>
+  </table>
 
 Sample math problems, what would be correct output for....
 - Modulus operator
@@ -396,6 +425,13 @@ In the last section of this lab, we'll talk about how to convert data types to a
 
 ## Comprehension Check
 
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScFQQp8Hb0H3j-obJSPVjQf_wpdaYXOUBmoIlbrN4wDtaBBRQ/viewform?usp=sf_link">Concatenation Comprehension Check</a></td>
+  </tr>
+  </table>
+
 Describe concatenation in your own words
 
 Difference between addition and concatenation
@@ -450,6 +486,13 @@ More on Python's `input()` function:
 - [W3Schools, Python input() Function](https://www.w3schools.com/python/ref_func_input.asp)
 
 ## Comprehension Check
+
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe83StYhYCVwUUt3kSSNImGjP8sHS9JfKDjlfSUrGFQNUn3AA/viewform?usp=sf_link">I/O Comprehension Check</a></td>
+  </tr>
+  </table>
 
 What does I/O stand for
 
@@ -546,6 +589,13 @@ print(school + ", Class of " + year)
 ```
 
 ## Comprehension Check
+
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd-ZmsE0NYbCz3pLsuAx0f5a9E2rWeC8FryIhI6KBS_KJjP-Q/viewform?usp=sf_link">Converting Data Types Comprehension Check</a></td>
+  </tr>
+  </table>
 
 Programs that change data type- what would we expect to have happen
 - Convert string input to number, arithmetic operation
