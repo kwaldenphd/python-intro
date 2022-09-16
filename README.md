@@ -16,7 +16,7 @@ This lab provides an overview of foundational programming concepts, with a focus
 <table>
  <tr><td>
 <img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
-<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=ff776195-c52e-4083-b903-aef40171360f">Lecture/Live Coding Playlist</a></td>
+<td><a href="">Lecture/Live Coding Playlist</a></td>
   </tr>
   </table>
 
@@ -61,7 +61,7 @@ Example:
 <table>
  <tr><td>
 <img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
-<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=ff776195-c52e-4083-b903-aef40171360f">Lecture/Live Coding Playlist</a></td>
+<td><a href="">Lecture/Live Coding Playlist</a></td>
   </tr>
   </table>
 
