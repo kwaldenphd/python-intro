@@ -112,7 +112,7 @@ How a programming language recognizes or understands the type of information sha
 Commonly-used data types (with Python examples) include:
 
 <table><tr><th>Name</th><th>Python Syntax</th><th>Example</th><th>Description</th></tr>
-  <tr><td>String</td><td><code>str()</code><td><code>"Hello World!"</code></td><td>String of character</td></tr>
+  <tr><td>String</td><td><code>str()</code><td><code>"Hello World!"</code></td><td>String of characters</td></tr>
   <tr><td>Integer</td><td><code>int()</code><td><code>7</code></td><td>Whole number</td></tr>
   <tr><td>Float</td><td><code>float()</code><td><code>1.5</code></td><td>Decimal number, or number with floating point values</td></tr>
   <tr><td>Boolean</td><td><code>bool()</code><td><code>True</code></td><td>Two-state system that typically represents true/false values</td></tr>
@@ -270,15 +270,15 @@ Rules for variable names
 
 ## Application
 
-Q1: Create named variable for each data type in Python using assignment operator
-
-Check using `print` and `type`
-
-Answers need to include assignment statement and print/type for each data type
-- Int
+Q1: Create a named variable for each of the following data types.
+- Integer
 - Float
-- String object
-- Boolean T/F
+- String
+- Boolean
+
+Show the value of each variable using `print()` and check the type of each variable using `type()`.
+
+Answer to this question includes program + comments that document process and explain your code.
 
 # Arithmetic Operators
 
@@ -345,13 +345,17 @@ Show example of arithmetic operator and assignment statement, what terms/concept
 
 ## Application
 
-Q2: Explain each / show example
+Q2: Write programs (or a single program) that use each of the following arithmetic operators.
 - Addition
 - Subtraction
 - Multiplication
 - Division
 - Modulus
 - Exponents
+
+You can write separate calculations with single operators, or calculations that use multiple operators.
+
+Answer to this question includes program + comments that document process and explain your code.
 
 Q3: Write a program that uses arithmetic operators to convert a specific Farenheit temperature value and output its Celsius representation. Answer to this question includes program + comments that document process and explain your code.
 
@@ -439,7 +443,21 @@ Difference between addition and concatenation
 
 ## Application
 
-Q5: Variables for each of the pieces of a standard ND intro (name, year, majors/minors, hall), use concatenation to create the full introduction using any of the syntax options above
+Q5: Create variables for each of the discrete pieces of information in "the standard Notre Dame introduction."
+- Name
+- Class year
+- Home state/country
+- Major(s) / minor(s)
+- Residence hall
+
+Use concatenation in combination with a `print()` statement to output a narrative introduction using the named variables.
+
+Answer to this question includes program + comments that document process and explain your code.
+
+Sample output for this program:
+```
+I'm Knute Rockne, class of 1914. I'm majoring in pharmacy and originally from Norway but grew up in Chicago. I live in Sorin Hall.
+```
 
 Q6: Write a program that creates `first_name` and `last_name` variables, and then uses concatenation to output a `full_name` variable. Answer to this question includes program + comments that document process and explain your code.
 
@@ -506,7 +524,21 @@ Programs that use input- what would we expect to have happen
 
 Q7: Write a program that asks the user to enter their favorite color, and then prints a `"You favorite color is..."` message. Answer to this question includes program + comments that document process and explain your code.
 
-Q8: Standard ND intro with user inputs.
+Q8: Write a program that accepts user input for the discrete pieces of information in "the standard Notre Dame introduction."
+- Name
+- Class year
+- Home state/country
+- Major(s) / minor(s)
+- Residence hall
+
+Use concatenation in combination with a `print()` statement to output a narrative introduction using the named variables.
+
+Answer to this question includes program + comments that document process and explain your code.
+
+Sample output for this program:
+```
+Knute Rockne, class of 1918, is majoring in pharmacy. He is originally from Norway but grew up in Chicago. He lives in Sorin Hall.
+```
 
 # Converting Data Types
 
