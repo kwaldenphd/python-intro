@@ -13,13 +13,6 @@ This lab provides an overview of foundational programming concepts, with a focus
 - Input/Output
 - Converting data types
 
-<table>
- <tr><td>
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
-<td><a href="">Lecture/Live Coding Playlist</a></td>
-  </tr>
-  </table>
-
 ## Acknowledgements
 
 Portions of this lab are adapted from the ["Lab: Programming in Python"](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python1.html) and ["Lab: Numbers in Python"](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python2.html) lab materials developed by [Janet Davis](https://cs.whitman.edu/~davisj/) for the the [CSC 105 "The Digital Age" course](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/). 
@@ -31,7 +24,6 @@ Definitions and explanations in this lab are adapted from:
 - Kenneth Leroy Busbee and Dave Braunschweig, *[Programming Fundamentals: A Modular Structured Approach, 2nd Edition](https://press.rebus.community/programmingfundamentals/)* (Rebus Press, 2018)
 
 # Table of Contents
-- [Lecture & Live Coding](#lecture--live-coding)
 - [Key Concepts](#key-concepts)
 - [Lab Notebook Template](#lab-notebook-template)
 - [Your First Program](#your-first-program)
@@ -47,23 +39,6 @@ Definitions and explanations in this lab are adapted from:
 - [Lab Notebook Questions](#lab-notebook-questions)
 
 [Click here](https://colab.research.google.com/drive/1HYwPZ6MkpYDe4QIXVVzXM4M13hA26ufL?usp=sharing) to access this lab procedure as a Jupyter Notebook.
-
-## Lecture & Live Coding
-
-Throughout this lab, you will see a Panopto icon at the start of select sections.
-
-This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
-
-You can click the link in the figure caption to access these materials (ND users only).
-
-Example:
-
-<table>
- <tr><td>
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
-<td><a href="">Lecture/Live Coding Playlist</a></td>
-  </tr>
-  </table>
 
 ## Key Concepts
 
@@ -89,17 +64,6 @@ Another option is to have an "official" `.py` file that you are using as a lab n
 What gets submitted as the lab notebook is the `Lab_Notebook_Walden.py` file.
 - When in doubt, use comments
 - Be sure you are using comments to note what question you're responding to
-
-# How We Got to Python / Why Programming Languages
-
-<table>
-<tr><td><img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td></tr>
-<tr><td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6b873ef6-c961-4ac1-a493-ae5801666f17">Your First Program</a></td></tr></table>
-
-## Key Terms
-
-
-## Comprehension Check
 
 # Your First Program
 
