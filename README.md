@@ -144,16 +144,6 @@ A couple other notes on consoles and scripts:
   </tr>
   </table>
 
-Console vs shell vs script
-
-Int vs float
-
-String vs Boolean
-
-Specific examples:
-- is `"7"` different than `7` (how)
-- is `"True"` different than `True` (and how)
-
 # Variables & Assignment Operators
 
 In most programming languages, variables work as "countainers for storing data values" ([W3Schools, Python Variables](https://www.w3schools.com/python/python_variables.asp))
