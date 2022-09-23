@@ -280,17 +280,6 @@ Python follows the PEDMAS order of operations: parenthesis, exponents, multiplic
   </tr>
   </table>
 
-Sample math problems, what would be correct output for....
-- Modulus operator
-- Exponent operator
-- Integer/floor division
-- Example that involves order of operations
-
-Show example of arithmetic operator and assignment statement, what terms/concepts/statements apply to this
-- Example of simple vs composite
-- Expression/assignment/statement language
-- Something about data type
-
 ## Application
 
 Q2: Write programs (or a single program) that use each of the following arithmetic operators.
