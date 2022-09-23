@@ -216,12 +216,6 @@ type(y)
   </tr>
   </table>
 
-What are variables, what do they do
-
-How do we create variables in Python, assignment statement
-
-Rules for variable names
-
 ## Application
 
 Q1: Create a named variable for each of the following data types.
@@ -390,11 +384,6 @@ In the last section of this lab, we'll talk about how to convert data types to a
   </tr>
   </table>
 
-Describe concatenation in your own words
-
-Difference between addition and concatenation
-- Show example with different data types, what would be the output
-
 ## Application
 
 Q5: Create variables for each of the discrete pieces of information in "the standard Notre Dame introduction."
@@ -465,14 +454,6 @@ More on Python's `input()` function:
   <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe83StYhYCVwUUt3kSSNImGjP8sHS9JfKDjlfSUrGFQNUn3AA/viewform?usp=sf_link">I/O Comprehension Check</a></td>
   </tr>
   </table>
-
-What does I/O stand for
-
-What are some examples in a programming context
-
-Programs that use input- what would we expect to have happen
-- Addition and a string object (concatenation)
-- Division and a string object (error)
 
 ## Application
 
@@ -582,11 +563,6 @@ print(school + ", Class of " + year)
   <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd-ZmsE0NYbCz3pLsuAx0f5a9E2rWeC8FryIhI6KBS_KJjP-Q/viewform?usp=sf_link">Converting Data Types Comprehension Check</a></td>
   </tr>
   </table>
-
-Programs that change data type- what would we expect to have happen
-- Convert string input to number, arithmetic operation
-- Try to convert string input (that's not a number) to a number, error message
-- Concatenation with string number input and convert to number, concatenation
 
 ## Application
 
