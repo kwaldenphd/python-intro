@@ -42,7 +42,7 @@ Definitions and explanations in this lab are adapted from:
 
 ## Key Concepts
 
-[Click here](https://github.com/kwaldenphd/python-intro/blob/draft/key-concepts.md) for a full list of key concepts and definitions for this lab.
+[Click here](https://github.com/kwaldenphd/python-intro/blob/main/key-concepts.md) for a full list of key concepts and definitions for this lab.
 
 ## Lab Notebook Template
 
