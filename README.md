@@ -146,7 +146,7 @@ A couple other notes on consoles and scripts:
 
 # Variables & Assignment Operators
 
-In most programming languages, variables work as "countainers for storing data values" ([W3Schools, Python Variables](https://www.w3schools.com/python/python_variables.asp))
+In most programming languages, variables work as "containers for storing data values" ([W3Schools, Python Variables](https://www.w3schools.com/python/python_variables.asp))
 
 We create a variable by assigning a value to that variable name using an **assignment operator**.
 
