@@ -125,7 +125,7 @@ Earlier in the semester, we wrote an assembly language program that ran when we 
 
 In most programming languages, there are a few common options for how you run or execute specific lines of code, sections of code, or an entire program.
 
-<p align="center"><img src="https://github.com/kwaldenphd/python-intro/blob/main/images/Replit_Python_Screenshot.png?raw=true" width="500"></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-intro/blob/main/images/Replit_Python_Screenshot.png?raw=true" width="1000"></p>
 
 Most integrated development environments (IDEs) include two locations where you can execute code:
 - We can type commands and run programs in the **console**, but those instructions are not saved and aren't available outside the current working session.
