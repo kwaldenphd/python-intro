@@ -35,7 +35,7 @@ Definitions and explanations in this lab are adapted from:
 - [Concatenation](#concatenation)
 - [Input & Output (I/O)](#input--output-io)
 - [Converting Data Types](#converting-data-types)
-- [How to submit this lab (and show your work)](how-to-submit-this-lab-and-show-your-work)
+- [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
 [Click here](https://colab.research.google.com/drive/1HYwPZ6MkpYDe4QIXVVzXM4M13hA26ufL?usp=sharing) to access this lab procedure as a Jupyter Notebook.
