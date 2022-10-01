@@ -446,7 +446,7 @@ More on Python's `input()` function:
 
 ## Application
 
-Q7: Write a program that asks the user to enter their favorite color, and then prints a `"You favorite color is..."` message. Answer to this question includes program + comments that document process and explain your code.
+Q7: Write a program that asks the user to enter their favorite color, and then prints a `"Your favorite color is..."` message. Answer to this question includes program + comments that document process and explain your code.
 
 Q8: Write a program that accepts user input for the discrete pieces of information in "the standard Notre Dame introduction."
 - Name
@@ -690,7 +690,7 @@ I'm Knute Rockne, class of 1914. I'm majoring in pharmacy and originally from No
 
 Q6: Write a program that creates `first_name` and `last_name` variables, and then uses concatenation to output a `full_name` variable. Answer to this question includes program + comments that document process and explain your code.
 
-Q7: Write a program that asks the user to enter their favorite color, and then prints a `"You favorite color is..."` message. Answer to this question includes program + comments that document process and explain your code.
+Q7: Write a program that asks the user to enter their favorite color, and then prints a `"Your favorite color is..."` message. Answer to this question includes program + comments that document process and explain your code.
 
 Q8: Write a program that accepts user input for the discrete pieces of information in "the standard Notre Dame introduction."
 - Name
