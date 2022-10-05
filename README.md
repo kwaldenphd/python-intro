@@ -50,7 +50,7 @@ Definitions and explanations in this lab are adapted from:
 
 Alternatives:
 - [`.py` template](https://drive.google.com/file/d/1usNaA299oB63ruoruBXlhtIT78Ie6D1j/view?usp=sharing) (Google Drive, ND users)
-- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/1xnnZnnab03qHwTPQR5pGv39XsNlaOYpA?usp=sharing) (Google Colab, ND users)
+- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/1yiBlBqUlWLjX4MisZCJFRmatdBAsbWb5?usp=sharing) (Google Colab, ND users)
 
 ## How to submit this lab (and show your work)
 
@@ -635,7 +635,7 @@ What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 
 Alternatives:
 - [`.py` template](https://drive.google.com/file/d/1usNaA299oB63ruoruBXlhtIT78Ie6D1j/view?usp=sharing) (Google Drive, ND users)
-- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/1xnnZnnab03qHwTPQR5pGv39XsNlaOYpA?usp=sharing) (Google Colab, ND users)
+- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/1yiBlBqUlWLjX4MisZCJFRmatdBAsbWb5?usp=sharing) (Google Colab, ND users)
 
 Q1: Create a named variable for each of the following data types.
 - Integer
