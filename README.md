@@ -667,15 +667,90 @@ Outline for this program:
 
 ```
 
-Q14: Write a program that asks a user to enter their age and returns an output message comparing that value with your age. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
+## Complex Conditional Statements
 
-Sample output for this program:
+We can imagine programming scenarios in which we want to compare more than two values or evaluate multiple conditions as part of a conditional statement. We can do this using logical operators and complex conditional statements.
+
+For example, `5 < 6 > 7` evaluates whether `5` is less than `6` and `6` is greater than `7`. This statement would return `False`.
+
+An example using strings: `"apple" > "banana" < "blueberry"` evaluates whether `"apple"` is greater than (or comes after) `"banana"` and whether `"banana"` is less than (or comes before) `"blueberry"`. This statement would return `False`.
+
+Python examples:
+
+```Python
+# an example that compares three integers
+print(5 < 6 > 7) # returns false because 6 is not greater than 7
+
+# an example that compares three strings
+print("apple" > "banana" < "blueberry") # returns false because apple comes before or is less than banana
 ```
-Your age: 10
 
-My age: 12
+## Logical Operators
 
-I am older!
+We can also compare or relate multiple conditions using logical operators: `and`, `or`, `not`
+
+- "A logical operator is a symbol or word used to connect two or more expressions such that the value of the compound expression produced depends only on that of the original expressions and on the meaning of the operator. Common logical operators include AND, OR, and NOT." (Busbee and Braunschweig, "[Logical Operators](https://press.rebus.community/programmingfundamentals/chapter/logical-operators/)")                            
+
+For example, `5 < 6 and 6 < 7` evaluates whether `5 < 6` and `6 < 7` are true. This statement would return `True`.
+
+Another example: `5 < 6 or 6 > 7` evaluates whether `5 < 6` or `6 > 7` is true. This statement would return `True`.
+
+Logical operators in Python:
+    
+<table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>And</td><td><code>and</code><td><code>x == y and y != z</code></td><td>Returns <code>True</code> if both statements are true</td></tr>
+  <tr><td>Or</td><td><code>or</code><td><code>x != y or y == z</code></td><td>Returns <code>True</code> if one of the statements is true</td></tr>
+  <tr><td>Not</td><td><code>not</code><td><code>not(x == y and y != z)</code></td><td>Reverses the result, returns <code>False</code> if the result is true</td></tr>
+  </table>
+    
+```Python
+# example using logical operators
+print(5 < 6 and 6 < 7) # returns true because both statements are true
+
+print(5 < 6 or 6 > 7) # returns true because at least one statement is true
+
+print(not(5 < 6 and 6 < 7)) # returns false, inverse of initial true
+```
+
+For more on logical operators in Python: [W3Schools, Python Logical Operators](https://www.w3schools.com/python/gloss_python_logical_operators.asp)   
+
+## Comprehension Check
+
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLWTw1QgP8g3nrgGAUJNhgyRP9wzEo-3CcHF_YlgmiXklUyw/viewform?usp=sf_link">Logical Operators & Complex Conditional Statements Comprehension Check</a></td>
+  </tr>
+  </table>
+
+## Application
+
+Q14: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) numeric values. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first numeric value
+
+# second numeric value
+
+# third numeric value
+
+# complex comparison statement
+
+```
+
+Q15: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) string objects. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first string object
+
+# second string object
+
+# third string object
+
+# complex comparison statement
+
 ```
 
 # How to submit this lab (and show your work)
@@ -693,11 +768,11 @@ What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 
 # Lab Notebook Questions
 
-[Click here](https://replit.com/team/eoc-f22/Introduction-to-Python) to make a copy of the Replit template for this lab.
+[Click here](https://replit.com/team/eoc-f23/Python-Fundamentals) to make a copy of the Replit template for this lab.
 
 Alternatives:
-- [`.py` template](https://drive.google.com/file/d/1usNaA299oB63ruoruBXlhtIT78Ie6D1j/view?usp=sharing) (Google Drive, ND users)
-- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/1yiBlBqUlWLjX4MisZCJFRmatdBAsbWb5?usp=sharing) (Google Colab, ND users)
+- `.py` placeholder
+- `.ipynb` placeholder
 
 Q1: Create a named variable for each of the following data types.
 - Integer
