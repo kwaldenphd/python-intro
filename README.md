@@ -1,4 +1,4 @@
-# Getting Started With Python (basic syntax & data types)
+# Python Fundamentals
 
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>This tutorial was written by Katherine Walden and is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
@@ -39,7 +39,7 @@ Definitions and explanations in this lab are adapted from:
 - [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
-[Click here](https://colab.research.google.com/drive/1HYwPZ6MkpYDe4QIXVVzXM4M13hA26ufL?usp=sharing) to access this lab procedure as a Jupyter Notebook.
+[Click here](https://colab.research.google.com/drive/1OmqR2ZUEBOlaMklZssVAHX8PCZr5tebe?usp=sharing) to access this lab procedure as a Jupyter Notebook.
 
 ## Key Concepts
 
@@ -771,8 +771,8 @@ What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 [Click here](https://replit.com/team/eoc-f23/Python-Fundamentals) to make a copy of the Replit template for this lab.
 
 Alternatives:
-- `.py` placeholder
-- `.ipynb` placeholder
+- [`.py` file]()
+- [`.ipynb` file](https://colab.research.google.com/drive/1yiBlBqUlWLjX4MisZCJFRmatdBAsbWb5?usp=sharing)
 
 Q1: Create a named variable for each of the following data types.
 - Integer
@@ -800,7 +800,9 @@ Q3: Write a program that uses arithmetic operators to convert a specific Farenhe
 
 <blockquote>The conversion equation is: <code>celsius = (fahrenheit - 32.0) * 5.0 / 9.0</code></blockquote>
 
-Q4: Create variables for each of the discrete pieces of information in "the standard Notre Dame introduction."
+Q4: Write a program that creates `first_name` and `last_name` variables, and then uses concatenation to output a `full_name` variable. Answer to this question includes program + comments that document process and explain your code.
+
+Q5: Create variables for each of the discrete pieces of information in "the standard Notre Dame introduction."
 - Name
 - Class year
 - Home state/country
@@ -815,8 +817,6 @@ Sample output for this program:
 ```
 I'm Knute Rockne, class of 1914. I'm majoring in pharmacy and originally from Norway but grew up in Chicago. I live in Sorin Hall.
 ```
-
-Q5: Write a program that creates `first_name` and `last_name` variables, and then uses concatenation to output a `full_name` variable. Answer to this question includes program + comments that document process and explain your code.
 
 Q6: Write a program that asks the user to enter their favorite color, and then prints a `"Your favorite color is..."` message. Answer to this question includes program + comments that document process and explain your code.
 
