@@ -50,8 +50,8 @@ Definitions and explanations in this lab are adapted from:
 [Click here](https://replit.com/team/eoc-f23/Python-Fundamentals) to make a copy of the Replit template for this lab.
 
 Alternatives:
-- `.py placeholder
-- `ipynb` placeholder
+- [`.py` file](https://drive.google.com/file/d/1n4TqpasXFeZoOtjyf3vDmQGXxxX25LaL/view?usp=sharing)
+- [`.ipynb` file](https://colab.research.google.com/drive/1yiBlBqUlWLjX4MisZCJFRmatdBAsbWb5?usp=sharing)
 
 ## How to submit this lab (and show your work)
 
@@ -771,7 +771,7 @@ What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 [Click here](https://replit.com/team/eoc-f23/Python-Fundamentals) to make a copy of the Replit template for this lab.
 
 Alternatives:
-- [`.py` file]()
+- [`.py` file](https://drive.google.com/file/d/1n4TqpasXFeZoOtjyf3vDmQGXxxX25LaL/view?usp=sharing)
 - [`.ipynb` file](https://colab.research.google.com/drive/1yiBlBqUlWLjX4MisZCJFRmatdBAsbWb5?usp=sharing)
 
 Q1: Create a named variable for each of the following data types.
