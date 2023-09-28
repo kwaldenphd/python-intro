@@ -5,13 +5,13 @@
 ## Lab Overview & Goals
 
 This lab provides an overview of foundational programming concepts, with a focus on Python syntax. Topics covered include:
-- Data types
-- Comments
 - Variables & assignment operators
+- Basic data types & comments
 - Arithmetic operators
 - Concatenation
 - Input/Output
-- Converting data types
+- Relational or comparison operators
+- Boolean logic & logical operators
 
 ## Acknowledgements
 
@@ -32,10 +32,10 @@ Definitions and explanations in this lab are adapted from:
   * [Running Your Program](#running-your-program)
 - [Variables & Assignment Operators](#variables--assignment-operators)
 - [Arithmetic Operators](#arithmetic-operators)
-- [Comparison Operators](#comparison-operators)
 - [Concatenation](#concatenation)
 - [Input & Output (I/O)](#input--output-io)
 - [Converting Data Types](#converting-data-types)
+- [Comparison Operators](#comparison-operators)
 - [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
@@ -550,6 +550,133 @@ Q9: Write a program that prompts the user to enter two numbers, converts the inp
 Q10: Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.
 
 Q11: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.
+
+# Comparison Operators
+
+"The relational operators are often used to create a test expression that controls program flow. This type of expression is also known as a Boolean expression because they create a Boolean answer or value when evaluated. There are six common relational operators that give a Boolean value by comparing (showing the relationship) between two operands. If the operands are of different data types, implicit promotion occurs to convert the operands to the same data type" (Busbee, "[Relational Operators](https://press.rebus.community/programmingfundamentals/chapter/relational-operators/)", in *Programming Fundamentals*)
+
+Relational operators, also called comparison operators, allow us to run `True/False` tests on specific conditions, focusing on the relationship(s) between two or more values.
+
+Relational operators or comparison operators in Python: 
+
+<table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>Equal</td><td><code>==</code><td><code>x == y</code></td><td>Tests if values are equal</td></tr>
+  <tr><td>Not equal</td><td><code>!=</code><td><code>x != y</code></td><td>Tests if values are not equal</td></tr>
+  <tr><td>Greater than</td><td><code>></code><td><code>x > y</code></td><td>Tests is a value is greater than another</td></tr>
+  <tr><td>Less than</td><td><code><</code><td><code>x < y</code></td><td>Tests is a value is less than another</td></tr> 
+  <tr><td>Greater than or equal to</td><td><code>>=</code><td><code>x >= y</code></td><td>Tests if a value is greater than or equal to another</td></tr>
+  <tr><td>Less than or equal to</td><td><code><=</code><td><code>x <= y</code></td><td>Tests if a value is less than or equal to another</td></tr>  
+  </table>
+    
+For more on comparison operators in Python: [W3Schools, Python Comparison Operators](https://www.w3schools.com/python/gloss_python_comparison_operators.asp)
+
+## Boolean Logic
+
+- "In mathematics and mathematical logic, Boolean algebra is the branch of algebra in which the values of the variables are the truth values true and false, usually denoted 1 and 0" ([Wikipedia](https://en.wikipedia.org/wiki/Boolean_algebra))
+
+We've talked previously about the Boolean data type. The underlying `True`/`False` logic lets us test for specific conditions and then specify how our code will execute based on the truth value for those conditional statements.
+
+- "You can evaluate any expression in Python, and get one of two answers, `True` or `False`. When you compare two values, the expression is evaluated and Python returns the Boolean answer" ([W3Schools, Python Booleans](https://www.w3schools.com/python/python_booleans.asp))
+
+## Boolean Logic & Comparison Operators
+   
+We can use comparison operators with a `print()` statement to test whether a particular statement is `True` or `False`.
+   
+A couple Python examples:
+
+```Python
+print(4 == 5) # returns false
+print(6 < 10) # returns true
+```
+
+```Python
+# comparison operator using variables
+x = 5
+y = 6
+
+print(x > y) # returns false
+```
+
+## Comparison Operators & String Objects
+
+We can probably make intuitive sense of how these comparison operators would work for numeric values. But what about text characters or string objects?
+   
+Most programming languages treat the 26 characters in the English-language alphabet (`a-z`) as sequential values, where `a` is less than `b`, which is less than `c`, etc.
+
+When working with string objects that represent words or characters, comparison operators indicate positionality in the English-language alphabet.
+
+A few examples in Python:
+```
+print("apple" > "banana") # returns false
+
+print("Ohio State" > "Notre Dame") # returns true
+```   
+
+## Comprehension Check
+
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd20NlXelKfF3hS5ftvjJAPG_Db7uMbnODfIT8dGZ39fP5EaA/viewform?usp=sf_link">Comparison Operators Comprehension Check</a></td>
+  </tr>
+  </table>
+
+## Application
+
+Q12: Write a program that uses each of Python's comparison operators (`==, !=, >, <, >=, <=`) to compare two numeric values. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first numeric value
+
+# second numeric value
+
+# equal
+
+# not equal
+
+# greater than
+
+# less than
+
+# greater than or equal to
+
+# less than or equal to
+
+```
+
+Q13: Write a program that uses each of Python's comparison operators (`==, !=, >, <, >=, <=`) to compare two string objects. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first string object
+
+# second string object
+
+# equal
+
+# not equal
+
+# greater than
+
+# less than
+
+# greater than or equal to
+
+# less than or equal to
+
+```
+
+Q14: Write a program that asks a user to enter their age and returns an output message comparing that value with your age. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
+
+Sample output for this program:
+```
+Your age: 10
+
+My age: 12
+
+I am older!
+```
 
 # How to submit this lab (and show your work)
 
