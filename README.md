@@ -32,6 +32,7 @@ Definitions and explanations in this lab are adapted from:
   * [Running Your Program](#running-your-program)
 - [Variables & Assignment Operators](#variables--assignment-operators)
 - [Arithmetic Operators](#arithmetic-operators)
+- [Comparison Operators](#comparison-operators)
 - [Concatenation](#concatenation)
 - [Input & Output (I/O)](#input--output-io)
 - [Converting Data Types](#converting-data-types)
@@ -46,11 +47,11 @@ Definitions and explanations in this lab are adapted from:
 
 ## Lab Notebook Template
 
-[Click here](https://replit.com/team/eoc-f22/Introduction-to-Python) to make a copy of the Replit template for this lab.
+[Click here](https://replit.com/team/eoc-f23/Python-Fundamentals) to make a copy of the Replit template for this lab.
 
 Alternatives:
-- [`.py` template](https://drive.google.com/file/d/1usNaA299oB63ruoruBXlhtIT78Ie6D1j/view?usp=sharing) (Google Drive, ND users)
-- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/1yiBlBqUlWLjX4MisZCJFRmatdBAsbWb5?usp=sharing) (Google Colab, ND users)
+- `.py placeholder
+- `ipynb` placeholder
 
 ## How to submit this lab (and show your work)
 
@@ -298,17 +299,6 @@ Q3: Write a program that uses arithmetic operators to convert a specific Farenhe
 
 <blockquote>The conversion equation is: <code>celsius = (fahrenheit - 32.0) * 5.0 / 9.0</code></blockquote>
 
-Q4: Write a program that calculates the fewest number of U.S. coins needed to make change for a 73 cent remainder. To put that another way- write a program that determines the smallest number of coins in each U.S. denomination needed to make up 73 cents. Answer to this question includes program + comments that document process and explain your code.
-
-In U.S. currency, one dollar ($1.00) equals one hundred (100) cents. The coins used to make change have a face value in cents.
-
-- Quarter = 25 cents
-- Dime = 10 cents
-- Nickel = 5 cents
-- Penny = 1 cent
-
-<blockquote>This workflow mirrors how store clerks give change to their customers. To be considerate, they always try to give the exact change using the fewest coins possible. It turns out that this can always be done (in U.S. currency) by giving as many quarters as possible, followed by as many dimes as possible, and so on down to pennies.</blockquote>
-
 # Concatenation
 
 In most programming languages, **concatenation** involves adding or joining character strings.
@@ -362,7 +352,7 @@ school = "Notre Dame"
 print(school + ", Class of " + year)
 ```
 
-In the last section of this lab, we'll talk about how to convert data types to address this issue.
+Later in this lab, we'll talk about how to convert data types to address this issue.
 
 ## Comprehension Check
 
@@ -375,7 +365,9 @@ In the last section of this lab, we'll talk about how to convert data types to a
 
 ## Application
 
-Q5: Create variables for each of the discrete pieces of information in "the standard Notre Dame introduction."
+Q5: Write a program that creates `first_name` and `last_name` variables, and then uses concatenation to create (and then print) a `full_name` variable. Answer to this question includes program + comments that document process and explain your code.
+
+Q6: Create variables for each of the discrete pieces of information in "the standard Notre Dame introduction."
 - Name
 - Class year
 - Home state/country
@@ -390,8 +382,6 @@ Sample output for this program:
 ```
 I'm Knute Rockne, class of 1914. I'm majoring in pharmacy and originally from Norway but grew up in Chicago. I live in Sorin Hall.
 ```
-
-Q6: Write a program that creates `first_name` and `last_name` variables, and then uses concatenation to output a `full_name` variable. Answer to this question includes program + comments that document process and explain your code.
 
 # Input & Output (I/O)
 
@@ -430,7 +420,7 @@ name = input("Enter your name: ")
 print("Hello, " + name)
 ```
 
-NOTE: The default data type for a variable created using the `input()` function is a string object. We can change data types using the functions we'll cover in the last section of this lab.
+NOTE: The default data type for a variable created using the `input()` function is a string object. We can change data types using the functions we'll cover later in this lab.
 
 More on Python's `input()` function:
 - [W3Schools, Python input() Function](https://www.w3schools.com/python/ref_func_input.asp)
@@ -561,61 +551,6 @@ Q10: Write a program that asks the user to think of a month and then enter the n
 
 Q11: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.
 
-# Final Application Questions
-
-### ASCII Art
-
-"ASCII art is a graphic design technique that uses computers for presentation and consists of pictures pieced together from the 95 printable (from a total of 128) characters defined by the ASCII Standard" ([Wikipedia, "ASCII art"](https://en.wikipedia.org/wiki/ASCII_art))
-
-An example of ASCII art output:
-
-```
-           * *
-          *   *
-           * *
-            *
-          * * *
-         *  *  *
-        *   *   *
-            *
-          *   *
-         *     *
-        *       *
-       *         *
-      *           *
-```
-
-One option to create this output in Python is to use multiple print statements:
-
-```Python
-print("     * *")
-print("    *   *")
-print("     * *")
-print("      *")
-print("    * * *")
-print("   *  *  *")
-print("  *   *   *")
-print("      *")
-print("    *   *")
-print("   *     *")
-print("  *       *")
-print(" *         *")
-print("*           *")
-```
-
-Q12: Write a program that creates your own ASCII art. You're welcome to consult the [ASCII Art Archive](https://www.asciiart.eu/) for inspiration. Answer to this question includes program + comments that document process and explain your code.
-
-### Calculating Change
-
-Q13: Write a program that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
-
-In U.S. currency, one dollar ($1.00) equals one hundred (100) cents. The coins used to make change have a face value in cents.
-
-- Quarter = 25 cents
-- Dime = 10 cents
-- Nickel = 5 cents
-- Penny = 1 cent
-
 # How to submit this lab (and show your work)
 
 Moving forward, lab notebooks will be submitted as `.py` files. 
@@ -713,7 +648,3 @@ Q9: Write a program that prompts the user to enter two numbers, converts the inp
 Q10: Write a program that asks the user to think of a month and then enter the number of days in that month. Your program should then compute the number of minutes in the month, and report the result. Answer to this question includes program + comments that document process and explain your code.
 
 Q11: Write a program that prompts the user to enter a temperature in Fahrenheit, and reports the equivalent temperature in Celsius. Answer to this question includes program + comments that document process and explain your code.
-
-Q12: Write a program that creates your own ASCII art. You're welcome to consult the [ASCII Art Archive](https://www.asciiart.eu/) for inspiration. Answer to this question includes program + comments that document process and explain your code.
-
-Q13: Write a program that asks the user to input the amount of change your program is to make, and then compute the number of quarters, dimes, nickels, and pennies that produces the correct change with the fewest coins possible. Answer to this question includes program + comments that document process and explain your code.
