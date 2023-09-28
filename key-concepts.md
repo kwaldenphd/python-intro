@@ -9,6 +9,17 @@ Specific code commands that show up in this lab:
   <tr><td>Assignment operator</td><td><code>=</code></td><td><code>x = 3</code></td><td>Assigns value(s) to variable</td></tr>
   </table>
 
+Comparison operators:
+
+<table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>Equal</td><td><code>==</code><td><code>x == y</code></td><td>Tests if values are equal</td></tr>
+  <tr><td>Not equal</td><td><code>!=</code><td><code>x != y</code></td><td>Tests if values are not equal</td></tr>
+  <tr><td>Greater than</td><td><code>></code><td><code>x > y</code></td><td>Tests is a value is greater than another</td></tr>
+  <tr><td>Less than</td><td><code><</code><td><code>x < y</code></td><td>Tests is a value is less than another</td></tr> 
+  <tr><td>Greater than or equal to</td><td><code>>=</code><td><code>x >= y</code></td><td>Tests if a value is greater than or equal to another</td></tr>
+  <tr><td>Less than or equal to</td><td><code><=</code><td><code>x <= y</code></td><td>Tests if a value is less than or equal to another</td></tr>  
+  </table>
+
 **Arithmetic operators**
 - Used with numeric values for mathmetical operations
   * More info: [W3Schools](https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp)
@@ -35,6 +46,22 @@ Specific code commands that show up in this lab:
 [identifier] [assignment symbol] [value]
 ```
 
+**Boolean Logic**
+- "In mathematics and mathematical logic, Boolean algebra is the branch of algebra in which the values of the variables are the truth values true and false, usually denoted 1 and 0" ([Wikipedia](https://en.wikipedia.org/wiki/Boolean_algebra))
+- "You can evaluate any expression in Python, and get one of two answers, `True` or `False`. When you compare two values, the expression is evaluated and Python returns the Boolean answer" ([W3Schools, Python Booleans](https://www.w3schools.com/python/python_booleans.asp))
+
+Python example:
+
+```Python
+print(4 == 5) # returns false
+print(6 < 10) # returns true
+
+# boolean logic with variables
+x = 5
+y = 6
+print(x > y) # returns false
+```
+
 **Comments** (in a programming language)
 - Comments mark instructions or information in the code that will not run as part of the program. Comments are useful for testing, documenting, and describing what your code is doing. 
 -In Python, single line comments begin with a pound `#` symbol and multi-line comments are marked by three sets of double quotation marks `"""`.
@@ -49,6 +76,47 @@ This is an example of a multi-line comment in Python
 
 For more on comments in Python:
 - [W3Schools, Python Comments](https://www.w3schools.com/python/python_comments.asp)
+
+**Comparison Operators (or relational operators)**
+
+- "The relational operators are often used to create a test expression that controls program flow. This type of expression is also known as a Boolean expression because they create a Boolean answer or value when evaluated. There are six common relational operators that give a Boolean value by comparing (showing the relationship) between two operands. If the operands are of different data types, implicit promotion occurs to convert the operands to the same data type" (Busbee, "[Relational Operators](https://press.rebus.community/programmingfundamentals/chapter/relational-operators/)")
+
+Relational operators or comparison operators in Python: 
+
+<table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>Equal</td><td><code>==</code><td><code>x == y</code></td><td>Tests if values are equal</td></tr>
+  <tr><td>Not equal</td><td><code>!=</code><td><code>x != y</code></td><td>Tests if values are not equal</td></tr>
+  <tr><td>Greater than</td><td><code>></code><td><code>x > y</code></td><td>Tests is a value is greater than another</td></tr>
+  <tr><td>Less than</td><td><code><</code><td><code>x < y</code></td><td>Tests is a value is less than another</td></tr> 
+  <tr><td>Greater than or equal to</td><td><code>>=</code><td><code>x >= y</code></td><td>Tests if a value is greater than or equal to another</td></tr>
+  <tr><td>Less than or equal to</td><td><code><=</code><td><code>x <= y</code></td><td>Tests if a value is less than or equal to another</td></tr>  
+  </table>
+    
+For more on comparison operators in Python: [W3Schools, Python Comparison Operators](https://www.w3schools.com/python/gloss_python_comparison_operators.asp)
+
+**Complex Conditional Statements**
+- Conditional statements that compare more than two values or evaluate multiple comparisons as part of a conditional statement.
+
+Python examples:
+
+```Python
+# an example that compares three integers
+print(5 < 6 > 7) # returns false because 6 is not greater than 7
+
+# an example that compares three strings
+print("apple" > "banana" < "blueberry") # returns false because apple comes before or is less than banana
+```
+
+We can also compare or relate multiple conditions using logical operators: `and`, `or`, `not`
+
+```Python
+# example using logical operators
+print(5 < 6 and 6 < 7) # returns true because both statements are true
+
+print(5 < 6 or 6 > 7) # returns true because at least one statement is true
+
+print(not(5 < 6 and 6 < 7)) # returns false, inverse of initial true
+```
 
 **Concatenation**
 - In most programming languages, concatenation involves adding or joining character strings. For example, we could concatenate the strings `Hello` and `world` to create a `Hello world` message.
@@ -97,6 +165,19 @@ name = input("Enter your name: ")
 # output
 print("Hello, " + name)
 ```
+
+**Logical Operators**
+- "A logical operator is a symbol or word used to connect two or more expressions such that the value of the compound expression produced depends only on that of the original expressions and on the meaning of the operator. Common logical operators include AND, OR, and NOT." (Busbee and Braunschweig, "[Logical Operators](https://press.rebus.community/programmingfundamentals/chapter/logical-operators/)")
+
+Logical operators in Python:
+    
+<table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>And</td><td><code>and</code><td><code>x == y and y != z</code></td><td>Returns <code>True</code> if both statements are true</td></tr>
+  <tr><td>Or</td><td><code>or</code><td><code>x != y or y == z</code></td><td>Returns <code>True</code> if one of the statements is true</td></tr>
+  <tr><td>Not</td><td><code>not</code><td><code>not(x == y and y != z)</code></td><td>Reverses the result, returns <code>False</code> if the result is true</td></tr>
+  </table>
+    
+For more on logical operators in Python: [W3Schools, Python Logical Operators](https://www.w3schools.com/python/gloss_python_logical_operators.asp)    
 
 **Order of operations** (PEDMAS)
 - Python follows the PEDMAS order of operations: parenthesis, exponents, multiplication, division, addition, subtraction. 
